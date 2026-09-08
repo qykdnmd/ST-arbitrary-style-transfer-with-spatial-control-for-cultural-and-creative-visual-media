@@ -1,0 +1,71 @@
+{
+  "generated_at_utc": "2026-09-01T04:15:35.060557+00:00",
+  "source": {
+    "path": "paper/evidence/metrics_per_pair_full.csv",
+    "sha256": "2fff59820fda903c0bd874c3950d4f21c9f0c59f1782028e63b96a56863e19fc",
+    "versioned_path": "paper/evidence/metrics_per_pair_full.csv",
+    "versioned_sha256": "2fff59820fda903c0bd874c3950d4f21c9f0c59f1782028e63b96a56863e19fc"
+  },
+  "general_data": {
+    "methods": 5,
+    "contents": 40,
+    "styles": 20,
+    "cells_per_method": 800,
+    "total_observations": 4000
+  },
+  "primary_metrics": [
+    "ssim",
+    "lpips",
+    "e_ssim",
+    "l_c",
+    "l_s"
+  ],
+  "pairwise_comparisons": 20,
+  "wilcoxon": {
+    "w_present": true,
+    "raw_p_present": true,
+    "adjusted_p_present": true,
+    "bonferroni_family": 20,
+    "all_adjusted_p_below_0_05": true
+  },
+  "effect_size": {
+    "rank_biserial_present": true
+  },
+  "dependence_aware_analysis": {
+    "content_random_effect": true,
+    "style_random_effect": true,
+    "all_mixed_models_converged": true,
+    "crossed_bootstrap": true,
+    "all_crossed_ci_exclude_zero": true,
+    "bootstrap_seed": 20260901,
+    "n_bootstrap": 10000
+  },
+  "deception": {
+    "mcnemar_b_c_present": true,
+    "statistic_present": true,
+    "adjusted_p_present": true,
+    "paired_proportion_difference_present": true,
+    "crossed_bootstrap_present": true,
+    "all_adjusted_p_below_0_05": true,
+    "crossed_ci_exclude_zero_count": 2,
+    "pairwise_comparisons": 4,
+    "per_pair_hits_rows": 4000
+  },
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.4.4",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "statsmodels": "0.14.6"
+  },
+  "manuscript": {
+    "all_reported_numbers_traceable": true,
+    "tex_and_markdown_synchronized": true,
+    "obsolete_uniform_p_claim_removed": true,
+    "supplemental_table_s1_present": true,
+    "final_pdf_present": true,
+    "final_pdf_bytes": 1602265,
+    "audit_pending": false,
+    "audited_at_utc": "2026-09-01T04:42:47.801669+00:00"
+  }
+}

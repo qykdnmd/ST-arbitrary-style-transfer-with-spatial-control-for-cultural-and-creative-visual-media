@@ -1,0 +1,23 @@
+{
+  "protocol": {
+    "name": "artfid5000",
+    "n_pairs": 5000,
+    "n_unique_content": 5000,
+    "n_unique_style": 5000,
+    "seed": 20260902,
+    "size": 512,
+    "resize": "PIL.Image.Resampling.LANCZOS square resize",
+    "png_compress_level": 3,
+    "pairing": "one-to-one"
+  },
+  "art_fid_revision": "1209d017823095f2661a5405c82c7b91696639ab",
+  "art_inception_checkpoint": "external\\art-fid\\ckpt\\art_inception.pth",
+  "art_inception_sha256": "5bc1c20380401911d99d528b7b6e4430044b56edd5f7f26467222f3fb7c54e7e",
+  "csd_revision": "3a9df32605b869eceb704897839be80977a9f1ea",
+  "csd_checkpoint": "external\\CSD\\checkpoints\\pytorch_model.bin",
+  "csd_checkpoint_sha256": "40e92fad63a361b8136100cd234c42d401ef9b34ff1748234318929ebcc7e7a1",
+  "bootstrap_seed": 20260902,
+  "bootstrap_repeats": 10000,
+  "note": "N=5000 is the minimum supported ArtFID-infinity sample size.",
+  "csd_weight_note": "The official CSD repository warns that released weights may not exactly reproduce the paper's numbers; this run reports the checkpoint hash."
+}

@@ -1,0 +1,32 @@
+{
+  "protocol": {
+    "name": "artfid5000",
+    "n_pairs": 5000,
+    "n_unique_content": 5000,
+    "n_unique_style": 5000,
+    "seed": 20260902,
+    "size": 512,
+    "resize": "PIL.Image.Resampling.LANCZOS square resize",
+    "png_compress_level": 3,
+    "pairing": "one-to-one"
+  },
+  "methods": [
+    "ccstytr",
+    "aesfa",
+    "stytr2",
+    "adain",
+    "sanet",
+    "cast"
+  ],
+  "repository_revisions": {
+    "aesfa": "00449adf205e93f430dd54799b44a26d740706e1",
+    "stytr2": "c11ea32913d16dbf2f9a1f82ac077dbf90f143c6",
+    "adain": "47950d0e6656a95a80a4b105c4c0f58d38ef785c",
+    "sanet": "2dfec142cf9bb4c7915a28284097fd4ea9dca251",
+    "cast": "67a7d9c1e9c1931db5d535385eca9861875049a8"
+  },
+  "checkpoint_sha256": {
+    "ccstytr": "2601b1074dfbec80df7042a00720b67ffe2926de67bbe424949ea906c32efc97",
+    "aesfa": "8e1dbd2daf53be483897e789f1c57eb92d43b53cd9c87fcb5d6d8d65c14f164c"
+  }
+}

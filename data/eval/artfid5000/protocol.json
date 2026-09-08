@@ -1,0 +1,11 @@
+{
+  "name": "artfid5000",
+  "n_pairs": 5000,
+  "n_unique_content": 5000,
+  "n_unique_style": 5000,
+  "seed": 20260902,
+  "size": 512,
+  "resize": "PIL.Image.Resampling.LANCZOS square resize",
+  "png_compress_level": 3,
+  "pairing": "one-to-one"
+}

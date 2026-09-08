@@ -1,0 +1,40 @@
+# CC-StyTr base training config (plan section 3, RTX 5060 8GB)
+model:
+  dim: 512
+  num_heads: 8
+  ffn_dim: 2048
+  num_encoder_layers: 3
+  num_decoder_layers: 3
+  patch_size: 8
+  use_smca: true
+
+data:
+  content_dir: data/train/coco/train2014
+  style_dir: data/train/wikiart
+  load_size: 512
+  crop_size: 256
+  num_workers: 4
+
+train:
+  batch_size: 2
+  grad_accum: 8          # effective batch 16
+  max_steps: 160000      # optimizer updates; each step consumes grad_accum micro-batches
+  lr: 5.0e-4
+  warmup_iters: 10000
+  amp: true
+  amp_dtype: bf16
+  grad_clip: 1.0         # max gradient norm; non-finite grads skip the optimizer step
+  save_interval: 10000   # checkpoint every 10k steps
+  keep_ckpts: 5          # keep only the N latest checkpoints (~400MB each); 0 = keep all
+  log_interval: 100      # print/TensorBoard losses every N steps
+  sample_interval: 5000  # 8-image sample grid every 5k steps
+  log_dir: runs/ccstytr
+  ckpt_dir: checkpoints
+
+loss:
+  content: 7.0
+  style: 10.0
+  identity1: 70.0
+  identity2: 1.0
+  struct: 5.0
+  alpha: 1.0

@@ -1,0 +1,76 @@
+{
+  "schema": "repeated_stylization_proposed_v1",
+  "experiment": "20-round repeated stylization probe",
+  "scope": "proposed model only",
+  "source": {
+    "archive_path": "paper/evidence/repeated_stylization_proposed_raw.csv",
+    "sha256": "8a98b32cee7b96dcdaedf5c7ea5ad9206c3dd70fe61532f1b12e68839286b006",
+    "bytes": 13457,
+    "rows": 160,
+    "columns": [
+      "method",
+      "pair",
+      "round",
+      "lpips"
+    ],
+    "path": "results/leakage/leakage.csv"
+  },
+  "checkpoint": {
+    "sha256": "2601b1074dfbec80df7042a00720b67ffe2926de67bbe424949ea906c32efc97",
+    "bytes": 412165681,
+    "path": "checkpoints/ablation/residual_gating_spatial_alpha/ccstytr_step_080000.pth"
+  },
+  "config": {
+    "path": "configs/ablation/residual_gating_spatial_alpha.yaml",
+    "sha256": "07a7206518632c0819ded9da6e4e7a5fda3961e6208477fb5dfb26ee86053e3b",
+    "bytes": 890
+  },
+  "design": {
+    "methods": [
+      "ccstytr"
+    ],
+    "contents": 4,
+    "styles": 2,
+    "pairs": 8,
+    "rounds": 20,
+    "expected_cells": 160,
+    "observed_cells": 160
+  },
+  "integrity": {
+    "duplicate_cells": 0,
+    "missing_cells": 0,
+    "rounds_present": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "all_round_means_monotone_non_decreasing": true
+  },
+  "aggregation": {
+    "summary_path": "paper/evidence/repeated_stylization_proposed_round_summary.csv",
+    "mean": "arithmetic mean of LPIPS across the eight fixed content-style pairs for each round",
+    "sd": "sample standard deviation across the eight pairs",
+    "r1_mean_lpips": 0.3824875,
+    "r20_mean_lpips": 0.7025,
+    "delta_r1_r20": 0.3200125
+  },
+  "claim_boundary": "Proposed-model repeated-stylization trajectory only; these data do not support cross-method repeated-stylization comparisons.",
+  "reproduction_command": "python scripts\\leakage.py --methods ccstytr --checkpoint checkpoints\\ablation\\residual_gating_spatial_alpha\\ccstytr_step_080000.pth --cc_name ccstytr"
+}

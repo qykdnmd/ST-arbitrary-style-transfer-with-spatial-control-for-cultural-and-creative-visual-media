@@ -1,0 +1,6 @@
+method,n,ssim_mean,ssim_ci95,lpips_mean,lpips_ci95,e_ssim_mean,e_ssim_ci95,l_c_mean,l_c_ci95,l_s_mean,l_s_ci95,wilcoxon_p_ssim,wilcoxon_p_lpips,wilcoxon_p_e_ssim,wilcoxon_p_l_c,wilcoxon_p_l_s
+saliency_routed_spatial_alpha,3600,0.5161,0.0049,0.5493,0.0029,0.4448,0.0043,1.7747,0.0109,1.7357,0.0466,,,,,
+residual_gating_spatial_alpha,3600,0.5394,0.0052,0.5218,0.0031,0.4795,0.0047,1.657,0.0116,1.7904,0.0409,0.00e+00,0.00e+00,0.00e+00,0.00e+00,3.04e-79
+saliency_routed_scalar_alpha,3600,0.518,0.0051,0.5481,0.0029,0.4603,0.0046,1.7414,0.0117,1.6324,0.0364,1.40e-12,1.04e-02,1.76e-258,8.62e-95,8.49e-35
+residual_gating_scalar_alpha,3600,0.5256,0.0051,0.5426,0.0029,0.4647,0.0046,1.6836,0.0109,1.5871,0.0398,1.97e-182,1.92e-107,0.00e+00,0.00e+00,7.15e-272
+no_structure_guidance,3600,0.5389,0.0052,0.5172,0.0029,0.4815,0.0047,1.6448,0.0108,1.7374,0.0443,0.00e+00,0.00e+00,0.00e+00,0.00e+00,4.86e-03

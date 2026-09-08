@@ -1,0 +1,6 @@
+# Equal-budget configurations reported in the manuscript.
+residual_gating_spatial_alpha
+saliency_routed_spatial_alpha
+no_structure_guidance
+saliency_routed_scalar_alpha
+residual_gating_scalar_alpha

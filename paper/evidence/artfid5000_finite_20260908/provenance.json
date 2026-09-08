@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "started_utc": "2026-09-08T02:36:33.648030+00:00",
+  "estimator": "finite_sample_artfid",
+  "formula": "(1 + lpips_content) * (1 + fid_finite)",
+  "n": 5000,
+  "protocol": {
+    "name": "artfid5000",
+    "n_pairs": 5000,
+    "n_unique_content": 5000,
+    "n_unique_style": 5000,
+    "seed": 20260902,
+    "size": 512,
+    "resize": "PIL.Image.Resampling.LANCZOS square resize",
+    "png_compress_level": 3,
+    "pairing": "one-to-one"
+  },
+  "manifest_sha256": "f7ef2229b18c2bbfed67dd58f10b01f92af5ba0f74395ce91cac4ebde9790f1d",
+  "image_inventory_sha256": "17e6806db1e067d87a28cd20f758606854f7a8c6b304a0a9b4f433a01b72b9d9",
+  "preflight_inventory_source": "[PROJECT_ROOT]/results\\artfid5000_finite_20260908_103200\\image_inventory.json",
+  "preflight_inventory_source_sha256": "17e6806db1e067d87a28cd20f758606854f7a8c6b304a0a9b4f433a01b72b9d9",
+  "historical_provenance_sha256": "38f85ab2976e3933479551482eb1a5830497cc5aaf0cd6aab59cd2fc975d9812",
+  "historical_summary_sha256": "8d31a9a6fae9a2078dccc1fc4d404c65ee3b327bbfcd67cc7cb7f9a6bb93be5e",
+  "script_sha256": "caae6773c25e4aa93d44516f83613e99bbe355199b63175f748e7d520cf0c6f4",
+  "feature_checkpoint_sha256": "5bc1c20380401911d99d528b7b6e4430044b56edd5f7f26467222f3fb7c54e7e",
+  "upstream_revision": "6815130992cf0997e1a4afbc991c113273090f7f",
+  "upstream_source_sha256": {
+    "setup.py": "624ea95e0d715be960a4f16b772952f57b8e9562537829b0c5030ad836bf6d7e",
+    "art_fid\\art_fid.py": "485e982df76fb80428c19335991d8c231ab57b8d8f7e06762276402644ebe78b",
+    "art_fid\\image_metrics.py": "85aee89f78b118ca6fb50f33e251168c52ba9eb679a3db4b82deb2c16a830b5b",
+    "art_fid\\inception.py": "2c2ceecaeea0e1ca80a0425639b64890718df33cd0a364279099ba7084ca8141",
+    "art_fid\\utils.py": "b1e825e9b15926d6b1f4c140d60c4790a64d766b97b37acd9672f1f40686d6f6",
+    "art_fid\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "art_fid\\__main__.py": "4e30b9171f5bca01aab53a1dd01c0cae20640fa75671bd7895cda28fc74ba664"
+  },
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.4.4",
+    "scipy": "1.18.0",
+    "lpips": "0.1.4"
+  },
+  "batch_size": 16,
+  "workers": 4,
+  "seed": 20260902,
+  "feature_dtype": "float32 inference; float64 mean/covariance",
+  "tf32": false,
+  "image_enumeration": "Single directory pass; case-insensitive extension filter; unique stems checked against manifest. Avoids upstream Windows png/PNG duplicate enumeration.",
+  "verification": "Independent symmetric-PSD Frechet formula; atol=1e-5, rtol=1e-6",
+  "note": "Fresh finite-sample recomputation. No inverse-sample-size regression. Historical infinity-labeled files remain unchanged. CSD is not recomputed.",
+  "unused_classifier_keys_missing": [
+    "AuxLogits1.fc.weight",
+    "AuxLogits1.fc.bias",
+    "AuxLogits2.fc.weight",
+    "AuxLogits2.fc.bias",
+    "fc1.weight",
+    "fc1.bias",
+    "fc2.weight",
+    "fc2.bias"
+  ],
+  "finished_utc": "2026-09-08T02:56:58.884485+00:00",
+  "summary_sha256": "795b129e3845cc4eb8a4e73e87741d777f0646a97036523e21c8725d9bb94595",
+  "feature_sha256": {
+    "adain_features.npy": "f811f1e406ec72a226a2cf526f7e46175ce87840dd5293111700741099830dce",
+    "aesfa_features.npy": "d55060b5ea889796af1aba1c572452921df25520960b307fe9870bdfe590e8a9",
+    "cast_features.npy": "ca8989dc601467ad58ea752cc95de8aaea1566f268e05a9ff6d77da01b0d9223",
+    "ccstytr_features.npy": "8129878b9e609de994b582782b6c3b25df1566b9a83d254432941bffef562e76",
+    "sanet_features.npy": "abb2cb10e411fadf896311fe568f2c840b9b1973c8e44aea8a1a95a99677288a",
+    "style_features.npy": "84e808ddc75e8341d50466fbaa30a8f47f2bc76c6859d4646f562656ee6a1b09",
+    "stytr2_features.npy": "ca86b0c7316d8dd0d93c7df774ed1a93d68a74fa1b947859c44dc2ac269cecfa"
+  },
+  "public_derivative": {
+    "reason": "Local absolute path redaction authorized by the author",
+    "original_sha256": "25cde7f2beaaf55643680c8a1aee2f05bc871d5731400d0847109e24098388d5",
+    "record": "provenance/public_redactions.json"
+  }
+}

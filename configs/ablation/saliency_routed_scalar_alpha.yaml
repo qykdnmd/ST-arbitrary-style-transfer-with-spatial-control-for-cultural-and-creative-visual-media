@@ -1,0 +1,39 @@
+# saliency_routed_scalar_alpha; 80000 optimizer steps
+model:
+  dim: 512
+  num_heads: 8
+  ffn_dim: 2048
+  num_encoder_layers: 3
+  num_decoder_layers: 3
+  patch_size: 8
+  use_smca: true
+data:
+  content_dir: data/train/coco/train2014
+  style_dir: data/train/wikiart
+  load_size: 512
+  crop_size: 256
+  num_workers: 2
+train:
+  batch_size: 1
+  grad_accum: 16
+  max_steps: 80000
+  lr: 0.0005
+  warmup_iters: 10000
+  amp: true
+  amp_dtype: bf16
+  grad_clip: 1.0
+  save_interval: 10000
+  keep_ckpts: 5
+  log_interval: 100
+  sample_interval: 5000
+  log_dir: runs/ablation/saliency_routed_scalar_alpha
+  ckpt_dir: checkpoints/ablation/saliency_routed_scalar_alpha
+  alpha_mode: scalar
+  quick_save_interval: 500
+loss:
+  content: 7.0
+  style: 10.0
+  identity1: 70.0
+  identity2: 1.0
+  struct: 5.0
+  alpha: 1.0

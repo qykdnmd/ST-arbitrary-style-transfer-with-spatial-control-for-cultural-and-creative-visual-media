@@ -1,0 +1,37 @@
+[
+  {
+    "path": "checkpoints/ablation/residual_gating_spatial_alpha/ccstytr_step_080000.pth",
+    "bytes": 412165681,
+    "sha256": "2601b1074dfbec80df7042a00720b67ffe2926de67bbe424949ea906c32efc97",
+    "model_id": "residual_gating_spatial_alpha",
+    "role": "proposed model"
+  },
+  {
+    "path": "checkpoints/ablation/saliency_routed_spatial_alpha/ccstytr_step_080000.pth",
+    "bytes": 412165617,
+    "sha256": "58d2cbcbb88b5b28fe8128a03cc00a4e01255dc6f9f66dd4b5aa25b8ef8303e2",
+    "model_id": "saliency_routed_spatial_alpha",
+    "role": "ablation configuration"
+  },
+  {
+    "path": "checkpoints/ablation/no_structure_guidance/ccstytr_step_080000.pth",
+    "bytes": 412163123,
+    "sha256": "5b0a9494e5557489825424024fd1661116a9da400d489995b66c42945469fa9c",
+    "model_id": "no_structure_guidance",
+    "role": "ablation configuration"
+  },
+  {
+    "path": "checkpoints/ablation/saliency_routed_scalar_alpha/ccstytr_step_080000.pth",
+    "bytes": 412165617,
+    "sha256": "6630ce06142761219b1d7d7bd5bb48a5376ef9f2883880451b57c96abba965ba",
+    "model_id": "saliency_routed_scalar_alpha",
+    "role": "ablation configuration"
+  },
+  {
+    "path": "checkpoints/ablation/residual_gating_scalar_alpha/ccstytr_step_080000.pth",
+    "bytes": 412165681,
+    "sha256": "165dd4c938ad238f6a431e0a69ced11dd650bf257d894ff607c4c526ac6e93c1",
+    "model_id": "residual_gating_scalar_alpha",
+    "role": "ablation configuration"
+  }
+]

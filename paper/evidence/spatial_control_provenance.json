@@ -1,0 +1,43 @@
+{
+  "experiment": "Spatial-alpha controllability",
+  "tested_commit": "92cf209310072d6e633468a72341649f619e7ee9",
+  "protocol": {
+    "posters": 60,
+    "styles": 10,
+    "cells": 600,
+    "conditions": [
+      "alpha_000",
+      "alpha_025",
+      "alpha_050",
+      "alpha_075",
+      "alpha_100",
+      "protected",
+      "inverted"
+    ],
+    "outputs": 4200,
+    "image_size": 512,
+    "seed": 20260902,
+    "equal_mean_spatial_alpha": 0.5,
+    "protected_classes": [
+      "text",
+      "logo"
+    ],
+    "featured_overlap_count": 0
+  },
+  "checkpoint": {
+    "sha256": "2601b1074dfbec80df7042a00720b67ffe2926de67bbe424949ea906c32efc97",
+    "path": "checkpoints/ablation/residual_gating_spatial_alpha/ccstytr_step_080000.pth"
+  },
+  "manifests": {
+    "dataset_sha256": "36f4ddcd84260e3633998bedbc87315f82506ffecb175ce75a1e538a5a3f1a82",
+    "output_sha256": "43daa8c2b8116845fbef8af4a092c34be1bb394af84d71affd4baf02d38009d3"
+  },
+  "result_files": {
+    "global_per_pair.csv": "be9c47217fe4e0226e68aca54d43ffa3297e96ef25e8045c9b6d59239d96b18e",
+    "monotonicity_per_pair.csv": "7a1e2cf728233cf966d3e5e932bb15afe93acfad0a663e302a91a491c7e966ae",
+    "spatial_locality_per_pair.csv": "91b350d3fb7e94057e54fb9c793816db59aa48f41d2ca4bc219d82dfadef3834",
+    "summary.csv": "eb9ff5cb41a92d55ab5cfc0c88f567d0fa4bcb8679cd3e57a78bb153e0da7bb5",
+    "ocr.csv": "9b2bfb5a6790f80f5aa7a9d9c7323ce7ddd057a5dfdd2622cc380182054e8344"
+  },
+  "scientific_scope": "Descriptive controllability evidence. The results support an interaction/control interpretation, not a claim that spatial alpha universally improves fixed-operating-point image-quality metrics or that every content-style pair responds monotonically."
+}

@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.local-agent-runtime/
+checkpoints/**/*.pth
+checkpoints/**/*.pt
+checkpoints/**/*.part
+*.part
+data/train/
+runs/
+logs/
+results/recomputed_statistics/
+external/**/checkpoints/
+external/**/ckpt/
+
+# Large regenerated ArtFID images/features; published compact evidence is under paper/evidence.
+data/eval/artfid5000/content/
+data/eval/artfid5000/style/
+results/artfid5000_finite_*/
+results/artfid5000/ccstytr/
+results/artfid5000/aesfa/
+results/artfid5000/stytr2/
+results/artfid5000/adain/
+results/artfid5000/sanet/
+results/artfid5000/cast/

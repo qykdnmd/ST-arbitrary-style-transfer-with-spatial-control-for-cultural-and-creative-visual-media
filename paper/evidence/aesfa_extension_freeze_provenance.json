@@ -1,0 +1,68 @@
+{
+  "schema_version": "aesfa_extension_freeze_provenance_v1",
+  "repository": {
+    "source_head": "d65f1e0da7f37034e695e61e5d78a34053eacee5"
+  },
+  "design": {
+    "contents": 40,
+    "styles": 20,
+    "cells_per_method": 800,
+    "methods": [
+      "ccstytr",
+      "aesfa"
+    ]
+  },
+  "inference": {
+    "aesfa_upstream_revision": "00449adf205e93f430dd54799b44a26d740706e1",
+    "aesfa_checkpoint_sha256": "8e1dbd2daf53be483897e789f1c57eb92d43b53cd9c87fcb5d6d8d65c14f164c",
+    "aesfa_output_manifest_sha256": "8247a3f6ac877a5c95950fb8e5da51125ee772b676af32b97cbf67848fd9dfbd"
+  },
+  "metric_protocol": {
+    "evaluator_size": 512,
+    "content_reference": "data/eval/general/content",
+    "style_reference": "data/eval/general/style",
+    "reference_behavior": "raw reference -> Evaluator internal Resize((512,512))",
+    "cc_frozen_regression_max_abs_delta": {
+      "ssim": 0.0,
+      "lpips": 0.0,
+      "e_ssim": 0.0,
+      "l_c": 0.0,
+      "l_s": 0.0
+    }
+  },
+  "statistics": {
+    "family_name": "AesFA recent-baseline extension",
+    "separate_from_original_20_test_family": true,
+    "tests": 5,
+    "bonferroni_tests": 5,
+    "bootstrap_design": "two-factor crossed content/style",
+    "bootstrap_seed": 20260902,
+    "n_bootstrap": 10000
+  },
+  "source_artifacts": {
+    "metrics": {
+      "sha256": "e31feab308c76900c996c79b2fd9f432b85d5ecd19629dc82a56c55a32bbd397"
+    },
+    "summary": {
+      "sha256": "6d245dc98d3eb18bf2a385099579a289409b3a7562b4df3b4059ee635cb49546"
+    },
+    "pairwise": {
+      "sha256": "bdc8f2f0ef04aa41fd8a98c3da5dd89ec22cb86a0707422ad9537a69805f3ab8"
+    },
+    "statistics_provenance": {
+      "sha256": "2c9c0282850c0cb6c9be256f1f597dd955a6f219bf25f00c52b7f4dfc92d8b95"
+    },
+    "independent_audit": {
+      "sha256": "254d12953032f110368c411156bbeb3e9f2e9ae129b0010af074afde1b269ade"
+    }
+  },
+  "diagnostics": {
+    "note": "The T004 _512-reference run was diagnostic only and is deliberately not included as formal evidence.",
+    "metrics_512ref_sha256": "f7189c41b4bd356c99d17fe3bf7e1c28cab4c0b9821c45bd6a75afaa84569411",
+    "raw_cc_regression_sha256": "8e811474f989020efb8048d1012c27bf107e2569e8c9ee3edf948267c7bc38f5"
+  },
+  "interpretation": {
+    "scope": "This extension compares CC-StyTr and AesFA only.",
+    "prohibited_inference": "It does not alter the original five-method experiment, its primary 20-test family, ArtFID/CSD results, or establish universal state-of-the-art superiority."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "csv_files_numeric_and_pair_fields_verified": 51,
+  "configuration_parameter_sets_verified": 5,
+  "model_implementation_unchanged": true,
+  "weights_binary_unchanged": true,
+  "scope": "Identifier, data-pair, parameter and CPU entry-point checks; no training or GPU inference"
+}

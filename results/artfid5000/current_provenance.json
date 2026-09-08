@@ -1,0 +1,10 @@
+{
+  "estimator": "finite_sample_artfid",
+  "finite_run": "paper/evidence/artfid5000_finite_20260908",
+  "finite_summary_sha256": "795b129e3845cc4eb8a4e73e87741d777f0646a97036523e21c8725d9bb94595",
+  "combined_summary_sha256": "862b0db91a8b4ec8df9ea9278a140bce957528691870bfee2a1a140d36b36239",
+  "csd_per_pair_sha256": "37471b19c585fe0ed07cc1ebfdda95055ab4bd3c7d2ed532752f0c4123c359cb",
+  "csd_summary_source": "results/artfid5000/historical_infinity/summary.csv",
+  "historical_summary_sha256": "8d31a9a6fae9a2078dccc1fc4d404c65ee3b327bbfcd67cc7cb7f9a6bb93be5e",
+  "note": "Finite scores joined by method with unchanged historical CSD means and intervals; no CSD rerun."
+}

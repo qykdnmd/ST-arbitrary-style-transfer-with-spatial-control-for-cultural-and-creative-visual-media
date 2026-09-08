@@ -1,0 +1,132 @@
+{
+  "scope": "Explicit public derivatives, not replacement original evidence",
+  "originals": "Privately retained outside the public release",
+  "files": [
+    {
+      "path": "checkpoints/README.md",
+      "original_sha256": "1c591a9ff4ffe5575a4b3f241a5e09cfe276857e0221cdf50b6d96eddd6284a0",
+      "reason": "Local path redaction; original privately retained.",
+      "public_sha256": "bcbd73a488b1bed07df513296ad0d8b39d581d0387c9330b7ebc07c2c65b1d3f"
+    },
+    {
+      "path": "configs/base.yaml",
+      "original_sha256": "b896b7a9e7957b50e3124bc628bc3397b0f6bd2dee4e6e7cb2ff83ecbc4751cc",
+      "reason": "Local path redaction; original privately retained.",
+      "public_sha256": "18832012effdca57a0534b89de406f685cce240e9598086256afdf6e99356d7f"
+    },
+    {
+      "path": "scripts/gen_flowchart_two_stream.py",
+      "original_sha256": "1bcd4811a325bc116ac1f0f6c105957cd39f4125b96eba87012d20461e9aa71d",
+      "reason": "Local path redaction; original privately retained.",
+      "public_sha256": "e9973cd4576842d4fd6465f84f3e32d34b01290301a744b3eab872c1c7a7fa99"
+    },
+    {
+      "path": "scripts/gen_fusion_decoder_mechanism.py",
+      "original_sha256": "63737186c251b60f8c28e04f7d6c4593208a7ca713433d3cf87a87e0005e6b42",
+      "reason": "Local path redaction; original privately retained.",
+      "public_sha256": "5adae422515ceaad6a74916b8db788caa86324d8d99f0cdedac16ab4fb9bcfbf"
+    },
+    {
+      "path": "scripts/gen_two_stream_transformer.py",
+      "original_sha256": "0230a2a48f056f909449bc329ca3463ae91bd97ad316c8076ae4fa84a25ae6b9",
+      "reason": "Local path redaction; original privately retained.",
+      "public_sha256": "9143fcf5720d18d2d3d14ef3250c08bc6cfe740456b128804230eb01b25a2360"
+    },
+    {
+      "path": "scripts/_gen_flowchart_material.py",
+      "original_sha256": "5ae7478855698eda26903a084430f6231655d37408f360672f9788d044243ba4",
+      "reason": "Local path redaction; original privately retained.",
+      "public_sha256": "ffa98c6784b024599f2d874ddf748346deac14c424874681aad3bf6d39f187fd"
+    },
+    {
+      "path": "paper/evidence/artfid5000_finite_20260908/provenance.json",
+      "original_sha256": "25cde7f2beaaf55643680c8a1aee2f05bc871d5731400d0847109e24098388d5",
+      "reason": "Local path redaction; original privately retained.",
+      "public_sha256": "0b2c8193c7234d9aff534b17d253adba0b864d77ac85d6389fb47adde85fdc18"
+    },
+    {
+      "path": "paper/evidence/artfid5000_finite_20260908/run.log",
+      "original_sha256": "4bb4304e32a58fea212d3b72e9056ba55535aa5b9fe427c251b80754385123ea",
+      "reason": "Mechanical byte-level path redaction; encoding retained.",
+      "public_sha256": "5e998a2b14ea3bad82c83930b11903ffae734af25e1e46dbe659f6baede89cbd"
+    },
+    {
+      "path": "paper/evidence/artfid5000_finite_20260908/verification.json",
+      "original_sha256": "69fc529747c8135d8473e10be24c838b2678d5a7cd2581753d5642c8b6486188",
+      "reason": "Local user/home or project-root paths replaced; experimental values and diagnostic messages retained.",
+      "public_sha256": "bb6ba9fb39222a7faaaac5150560fe09a6e300c91957943a5ede1684b2ecc74a"
+    },
+    {
+      "path": "external/CAST_pytorch/checkpoints/CAST_model/test_opt.txt",
+      "original_sha256": "26765445f38bd8929540a6a12a96ec0f71cfa4244a92be3b58ac32f9a3adb142",
+      "reason": "Local user/home or project-root paths replaced; experimental values and diagnostic messages retained.",
+      "public_sha256": "adafd4affcf0f1d1a1d4503c0b970f2dd7851a911f6e24b311dc607dc5fc8da2"
+    },
+    {
+      "path": "configs/ablation/no_structure_guidance.yaml",
+      "original_sha256": "540a1e663ec1aef402d710e6b9331cc79a53f2b24bb91cb39ab117c53b700dd9",
+      "reason": "Local user/home or project-root paths replaced; experimental values and diagnostic messages retained.",
+      "public_sha256": "dabb92559b33b69442288759ba6e976d66eb9dd5743adbd90f49fdf5ff40af9f"
+    },
+    {
+      "path": "configs/ablation/residual_gating_scalar_alpha.yaml",
+      "original_sha256": "0b6816f59c031f4b150d5d2715ed6ad3256caa374eaf75efd91fabddd5765ac3",
+      "reason": "Local user/home or project-root paths replaced; experimental values and diagnostic messages retained.",
+      "public_sha256": "8b5c02a3ad5a5ffbcc95422b2d6e600c18e9bf8f578fcf1a7dba2f91a102d1c5"
+    },
+    {
+      "path": "configs/ablation/residual_gating_spatial_alpha.yaml",
+      "original_sha256": "07a7206518632c0819ded9da6e4e7a5fda3961e6208477fb5dfb26ee86053e3b",
+      "reason": "Local user/home or project-root paths replaced; experimental values and diagnostic messages retained.",
+      "public_sha256": "b1e74f283c0eef295343e802694548d6dc35e36f728a64f3e1ea9083ac551d5b"
+    },
+    {
+      "path": "configs/ablation/saliency_routed_scalar_alpha.yaml",
+      "original_sha256": "d4345fc9c84103fb989b87973571f2009efe99529bef6a5e07f9cbd4aa9dddef",
+      "reason": "Local user/home or project-root paths replaced; experimental values and diagnostic messages retained.",
+      "public_sha256": "cdabee7ecb5d125b5c0dbeddfef1d9620dd37bf2c495ca96b3e1959cd6c0e047"
+    },
+    {
+      "path": "configs/ablation/saliency_routed_spatial_alpha.yaml",
+      "original_sha256": "25ea16ca9bbbd09896b5514da414c0d8e5ffef92f0b4934ea1e69c829af937ce",
+      "reason": "Local user/home or project-root paths replaced; experimental values and diagnostic messages retained.",
+      "public_sha256": "9979b468ac06123943e6f35a0ecd2225520d8d6431c12ac109f65512dc175700"
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "9d232dfa58994094902c095aa01a5f994795b4c7335d45b5b3e187d6b7ce7add",
+      "reason": "Document public derivative lineage. Public repository link/status subsequently updated.",
+      "public_sha256": "d5252180c1080f3e0d3d9106d723aca4dd54c45ff24685ceb641300220d5d2fb"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "original_sha256": "615c48936035655ebf521fea7e05e5fa1339264a0f2934daf6eebd1e7d04ef84",
+      "reason": "Document public derivative lineage.",
+      "public_sha256": "d30e6f734e3c96b7b7501a88a101726356a2e68bbbf297d75b16e8438f4601fb"
+    },
+    {
+      "path": "DATA_AVAILABILITY.md",
+      "original_sha256": "d7ae920246599fd49d64c48e86c01bb9dfc2b4e2a4fe8a41d0a2686d1be44aa6",
+      "reason": "Document public derivative lineage. Public repository link/status subsequently updated.",
+      "public_sha256": "fae4977ec6388ffeafdf02d0e07e3cfae81ef02c5575749a068092b92a0b7b56"
+    },
+    {
+      "path": "results/artfid5000/README.md",
+      "original_sha256": "b577781731e56cb0026b9f61b8b092088c0c66ce29cada01d6935cf7d42cb6b5",
+      "reason": "Document public derivative lineage.",
+      "public_sha256": "dd30a0322434734362eb4fb9033ea28d9cd5152cee34c740d7e09e8ffee96e35"
+    },
+    {
+      "path": "UPLOAD_READINESS.md",
+      "original_sha256": "198c85db937ca1515477f0358ea1fbb1ebe728f563c124ea7badee1c687b804a",
+      "reason": "Mark machine-path privacy issue addressed; other publication conditions remain. Public repository link/status subsequently updated.",
+      "public_sha256": "7dd572b0818443d0f3e02968da3d44b3dcc4d65b90a7d2f528361ecb83849c6d"
+    },
+    {
+      "path": "scripts/prepare_submission_assets.ps1",
+      "original_sha256": "62a6ba2b55fcb7f3a67bd17988e010ec1c1493ef1e8d32d91948c122e23e2e01",
+      "reason": "Discover project root at runtime instead of exposing a local path.",
+      "public_sha256": "a1cf3e831df877e62356582532dbad7dc0abc9721169091b55fa831594ccdec0"
+    }
+  ]
+}

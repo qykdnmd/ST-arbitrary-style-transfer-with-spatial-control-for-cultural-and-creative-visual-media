@@ -1,0 +1,3 @@
+case,content_id,style_id,text_box,logo_box,selection_basis
+1,6372,mural__img_1082crop_1_0,"[182, 307, 329, 348]","[63, 147, 455, 210]",fixed from source-only OCR/visual audit: English-dominant source and in-frame official crop boxes
+3,8962,western_painting__met_359775,"[34, 528, 437, 603]","[60, 489, 209, 525]",fixed from source-only OCR/visual audit: English-dominant source and in-frame official crop boxes

@@ -1,0 +1,440 @@
+{
+  "checked_at": "2026-09-08T04:23:30.136654+00:00",
+  "scope": "artifact integrity, row counts, means, syntax; not GPU reproduction",
+  "artifact_files_verified": 518,
+  "spatial_result_hashes": {
+    "global_per_pair.csv": true,
+    "monotonicity_per_pair.csv": true,
+    "spatial_locality_per_pair.csv": true,
+    "summary.csv": true,
+    "ocr.csv": true
+  },
+  "weights_check_skipped": false,
+  "checkpoints_verified": [
+    {
+      "path": "checkpoints/ablation/residual_gating_spatial_alpha/ccstytr_step_080000.pth",
+      "bytes": 412165681,
+      "sha256": "2601b1074dfbec80df7042a00720b67ffe2926de67bbe424949ea906c32efc97",
+      "model_id": "residual_gating_spatial_alpha",
+      "role": "proposed model"
+    },
+    {
+      "path": "checkpoints/ablation/saliency_routed_spatial_alpha/ccstytr_step_080000.pth",
+      "bytes": 412165617,
+      "sha256": "58d2cbcbb88b5b28fe8128a03cc00a4e01255dc6f9f66dd4b5aa25b8ef8303e2",
+      "model_id": "saliency_routed_spatial_alpha",
+      "role": "ablation configuration"
+    },
+    {
+      "path": "checkpoints/ablation/no_structure_guidance/ccstytr_step_080000.pth",
+      "bytes": 412163123,
+      "sha256": "5b0a9494e5557489825424024fd1661116a9da400d489995b66c42945469fa9c",
+      "model_id": "no_structure_guidance",
+      "role": "ablation configuration"
+    },
+    {
+      "path": "checkpoints/ablation/saliency_routed_scalar_alpha/ccstytr_step_080000.pth",
+      "bytes": 412165617,
+      "sha256": "6630ce06142761219b1d7d7bd5bb48a5376ef9f2883880451b57c96abba965ba",
+      "model_id": "saliency_routed_scalar_alpha",
+      "role": "ablation configuration"
+    },
+    {
+      "path": "checkpoints/ablation/residual_gating_scalar_alpha/ccstytr_step_080000.pth",
+      "bytes": 412165681,
+      "sha256": "165dd4c938ad238f6a431e0a69ced11dd650bf257d894ff607c4c526ac6e93c1",
+      "model_id": "residual_gating_scalar_alpha",
+      "role": "ablation configuration"
+    }
+  ],
+  "expected_final_checkpoints": 5,
+  "checkpoint_set_verified": true,
+  "csv": {
+    "paper/evidence/metrics_per_pair_full.csv": {
+      "rows": 4000,
+      "columns": [
+        "method",
+        "output",
+        "cell",
+        "content",
+        "style",
+        "ssim",
+        "lpips",
+        "e_ssim",
+        "l_c",
+        "l_s"
+      ],
+      "groups": {
+        "ccstytr": 800,
+        "stytr2": 800,
+        "adain": 800,
+        "sanet": 800,
+        "cast": 800
+      },
+      "means": {
+        "ccstytr": {
+          "ssim": 0.5703948210179806,
+          "lpips": 0.4816685140691698,
+          "e_ssim": 0.5640439795365448,
+          "l_c": 1.5507887176796793,
+          "l_s": 0.9799967698380351
+        },
+        "stytr2": {
+          "ssim": 0.48783184971660376,
+          "lpips": 0.5858902098983526,
+          "e_ssim": 0.4289250903313435,
+          "l_c": 2.242372432798147,
+          "l_s": 1.4303431057184934
+        },
+        "adain": {
+          "ssim": 0.2965385893266648,
+          "lpips": 0.6552733482792974,
+          "e_ssim": 0.2707486584188097,
+          "l_c": 2.659471207559109,
+          "l_s": 1.2773619677126407
+        },
+        "sanet": {
+          "ssim": 0.32565907216630874,
+          "lpips": 0.6482683476060629,
+          "e_ssim": 0.2974888497759729,
+          "l_c": 2.519479913711548,
+          "l_s": 1.2951317938789726
+        },
+        "cast": {
+          "ssim": 0.4412893434241414,
+          "lpips": 0.6294787167385221,
+          "e_ssim": 0.3896849395519816,
+          "l_c": 2.4559786702692508,
+          "l_s": 2.4069292440265415
+        }
+      }
+    },
+    "results/aesfa_extension/metrics_per_pair_full.csv": {
+      "rows": 1600,
+      "columns": [
+        "method",
+        "output",
+        "cell",
+        "content",
+        "style",
+        "ssim",
+        "lpips",
+        "e_ssim",
+        "l_c",
+        "l_s"
+      ],
+      "groups": {
+        "ccstytr": 800,
+        "aesfa": 800
+      },
+      "means": {
+        "ccstytr": {
+          "ssim": 0.5703948210179806,
+          "lpips": 0.4816685140691698,
+          "e_ssim": 0.5640439795365448,
+          "l_c": 1.5507887176796793,
+          "l_s": 0.9799967698380351
+        },
+        "aesfa": {
+          "ssim": 0.40404010395519435,
+          "lpips": 0.6636930327862501,
+          "e_ssim": 0.38845509579365733,
+          "l_c": 2.6205160872638227,
+          "l_s": 1.3644510469585658
+        }
+      }
+    },
+    "results/featured/metrics_per_pair.csv": {
+      "rows": 14400,
+      "columns": [
+        "method",
+        "output",
+        "ssim",
+        "lpips",
+        "e_ssim",
+        "l_c",
+        "l_s"
+      ],
+      "groups": {
+        "adain": 3600,
+        "cast": 3600,
+        "sanet": 3600,
+        "stytr2": 3600
+      },
+      "means": {
+        "adain": {
+          "ssim": 0.32335494444444446,
+          "lpips": 0.655483138888889,
+          "e_ssim": 0.25167369444444443,
+          "l_c": 2.659964472222222,
+          "l_s": 1.7431283888888889
+        },
+        "cast": {
+          "ssim": 0.4595606666666667,
+          "lpips": 0.6199243055555556,
+          "e_ssim": 0.36852947222222227,
+          "l_c": 2.3616175555555556,
+          "l_s": 3.4043925833333333
+        },
+        "sanet": {
+          "ssim": 0.33792361111111113,
+          "lpips": 0.6460316111111111,
+          "e_ssim": 0.26570702777777777,
+          "l_c": 2.4681398333333333,
+          "l_s": 1.5064588055555554
+        },
+        "stytr2": {
+          "ssim": 0.5133244444444445,
+          "lpips": 0.5648752777777778,
+          "e_ssim": 0.44957622222222227,
+          "l_c": 2.0839636666666665,
+          "l_s": 2.179283444444444
+        }
+      }
+    },
+    "results/featured/ocr.csv": {
+      "rows": 14280,
+      "columns": [
+        "method",
+        "content",
+        "style",
+        "ocr_sim",
+        "n_gt"
+      ],
+      "groups": {
+        "stytr2": 3570,
+        "adain": 3570,
+        "sanet": 3570,
+        "cast": 3570
+      },
+      "means": {
+        "stytr2": {
+          "ocr_sim": 0.3411716526610644
+        },
+        "adain": {
+          "ocr_sim": 0.0478821568627451
+        },
+        "sanet": {
+          "ocr_sim": 0.17607666666666666
+        },
+        "cast": {
+          "ocr_sim": 0.355536106442577
+        }
+      }
+    },
+    "results/ablation/metrics_per_pair.csv": {
+      "rows": 18000,
+      "columns": [
+        "method",
+        "output",
+        "ssim",
+        "lpips",
+        "e_ssim",
+        "l_c",
+        "l_s"
+      ],
+      "groups": {
+        "saliency_routed_spatial_alpha": 3600,
+        "residual_gating_spatial_alpha": 3600,
+        "saliency_routed_scalar_alpha": 3600,
+        "residual_gating_scalar_alpha": 3600,
+        "no_structure_guidance": 3600
+      },
+      "means": {
+        "saliency_routed_spatial_alpha": {
+          "ssim": 0.5160663055555555,
+          "lpips": 0.5493266388888889,
+          "e_ssim": 0.44480486111111106,
+          "l_c": 1.774707111111111,
+          "l_s": 1.735749
+        },
+        "residual_gating_spatial_alpha": {
+          "ssim": 0.5394184722222223,
+          "lpips": 0.5218141111111111,
+          "e_ssim": 0.4795471111111111,
+          "l_c": 1.6570243333333332,
+          "l_s": 1.7904298333333335
+        },
+        "saliency_routed_scalar_alpha": {
+          "ssim": 0.5179595833333334,
+          "lpips": 0.5480748333333334,
+          "e_ssim": 0.4602692222222222,
+          "l_c": 1.7413803333333335,
+          "l_s": 1.6323931111111112
+        },
+        "residual_gating_scalar_alpha": {
+          "ssim": 0.5256171111111111,
+          "lpips": 0.5425975277777778,
+          "e_ssim": 0.46472027777777775,
+          "l_c": 1.6835758055555556,
+          "l_s": 1.5870993333333334
+        },
+        "no_structure_guidance": {
+          "ssim": 0.5389224444444444,
+          "lpips": 0.5171707222222222,
+          "e_ssim": 0.4815311388888889,
+          "l_c": 1.6448448333333332,
+          "l_s": 1.7374104166666666
+        }
+      }
+    },
+    "results/ablation/ocr.csv": {
+      "rows": 17850,
+      "columns": [
+        "method",
+        "content",
+        "style",
+        "ocr_sim",
+        "n_gt"
+      ],
+      "groups": {
+        "residual_gating_scalar_alpha": 3570,
+        "saliency_routed_spatial_alpha": 3570,
+        "residual_gating_spatial_alpha": 3570,
+        "saliency_routed_scalar_alpha": 3570,
+        "no_structure_guidance": 3570
+      },
+      "means": {
+        "residual_gating_scalar_alpha": {
+          "ocr_sim": 0.5671235014005602
+        },
+        "saliency_routed_spatial_alpha": {
+          "ocr_sim": 0.4909832212885154
+        },
+        "residual_gating_spatial_alpha": {
+          "ocr_sim": 0.5906333053221289
+        },
+        "saliency_routed_scalar_alpha": {
+          "ocr_sim": 0.5930255742296918
+        },
+        "no_structure_guidance": {
+          "ocr_sim": 0.5449176470588235
+        }
+      }
+    },
+    "results/artfid5000/csd_per_pair.csv": {
+      "rows": 30000,
+      "columns": [
+        "method",
+        "pair_id",
+        "csd_similarity"
+      ],
+      "groups": {
+        "ccstytr": 5000,
+        "aesfa": 5000,
+        "stytr2": 5000,
+        "adain": 5000,
+        "sanet": 5000,
+        "cast": 5000
+      },
+      "means": {
+        "ccstytr": {},
+        "aesfa": {},
+        "stytr2": {},
+        "adain": {},
+        "sanet": {},
+        "cast": {}
+      }
+    },
+    "results/spatial_control/global_per_pair.csv": {
+      "rows": 3000,
+      "columns": [
+        "pair_id",
+        "content_id",
+        "style_id",
+        "condition",
+        "alpha",
+        "lpips_content",
+        "csd_style_similarity"
+      ],
+      "groups": {
+        "alpha_000": 600,
+        "alpha_025": 600,
+        "alpha_050": 600,
+        "alpha_075": 600,
+        "alpha_100": 600
+      },
+      "means": {
+        "alpha_000": {},
+        "alpha_025": {},
+        "alpha_050": {},
+        "alpha_075": {},
+        "alpha_100": {}
+      }
+    },
+    "results/spatial_control/monotonicity_per_pair.csv": {
+      "rows": 600,
+      "columns": [
+        "pair_id",
+        "lpips_spearman",
+        "csd_spearman",
+        "lpips_adjacent_violation_rate",
+        "csd_adjacent_violation_rate"
+      ],
+      "groups": {
+        "all": 600
+      },
+      "means": {
+        "all": {}
+      }
+    },
+    "results/spatial_control/spatial_locality_per_pair.csv": {
+      "rows": 600,
+      "columns": [
+        "pair_id",
+        "inside_direction",
+        "outside_direction",
+        "direction_success",
+        "locality_contrast",
+        "protected_boundary_residual",
+        "inverted_boundary_residual",
+        "protected_ocr",
+        "inverted_ocr",
+        "uniform_050_ocr"
+      ],
+      "groups": {
+        "all": 600
+      },
+      "means": {
+        "all": {}
+      }
+    },
+    "data/eval/artfid5000/manifest.csv": {
+      "rows": 5000,
+      "columns": [
+        "pair_id",
+        "content_source",
+        "style_source",
+        "style_group"
+      ],
+      "groups": {
+        "all": 5000
+      },
+      "means": {
+        "all": {}
+      }
+    }
+  },
+  "main_means_match_manuscript": {
+    "ssim": true,
+    "lpips": true,
+    "e_ssim": true,
+    "l_c": true,
+    "l_s": true
+  },
+  "alpha_maps": 120,
+  "python_files_syntax_checked": 82,
+  "known_limitations": [
+    "No GPU inference or training performed by this check",
+    "Featured/ablation measurements rounded to four decimals",
+    "Third-party weights and source/generated images not bundled",
+    "No permanent archive DOI yet; external resource access links remain incomplete"
+  ],
+  "finite_artfid": {
+    "status": "passed",
+    "methods": 6,
+    "n_per_method": 5000,
+    "scope": "Current table, source hashes, source snapshots and unchanged CSD; no GPU recomputation"
+  },
+  "errors": []
+}

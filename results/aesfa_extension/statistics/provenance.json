@@ -1,0 +1,52 @@
+{
+  "schema_version": "aesfa_extension_statistics_provenance_v1",
+  "repository": {
+    "head": "d65f1e0da7f37034e695e61e5d78a34053eacee5"
+  },
+  "input_metrics": {
+    "path": "results/aesfa_extension/metrics_per_pair_full.csv",
+    "sha256": "e31feab308c76900c996c79b2fd9f432b85d5ecd19629dc82a56c55a32bbd397",
+    "size_bytes": 548747,
+    "rows": 1600
+  },
+  "script": {
+    "path": "scripts/analyze_aesfa_extension.py",
+    "git_blob": "43d5c79a7c76921e9b2873a96283b0db18ec1732",
+    "sha256": "4610499af0aa6e0c0be29adef4c02d3beba1372a2e931943a326f59dba06bc72"
+  },
+  "family": {
+    "name": "AesFA recent-baseline extension",
+    "tests": 5,
+    "separate_from_original_20_test_family": true
+  },
+  "wilcoxon": {
+    "paired": true,
+    "alternative": "two-sided",
+    "zero_method": "wilcox",
+    "correction": false,
+    "method": "asymptotic"
+  },
+  "multiplicity": {
+    "method": "Bonferroni",
+    "number_of_tests": 5
+  },
+  "rank_biserial": {
+    "direction": "positive = CC-StyTr better"
+  },
+  "crossed_bootstrap": {
+    "design": "two-factor crossed content/style",
+    "content_levels": 40,
+    "style_levels": 20,
+    "seed": 20260902,
+    "n_bootstrap": 10000,
+    "ci_percentiles": [0.025, 0.975]
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.4.4",
+    "scipy": "1.18.0"
+  },
+  "upstream_output": {
+    "aesfa_manifest_sha256": "8247a3f6ac877a5c95950fb8e5da51125ee772b676af32b97cbf67848fd9dfbd"
+  }
+}

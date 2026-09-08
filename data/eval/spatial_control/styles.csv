@@ -1,0 +1,11 @@
+style_id,source_file,style_group
+s00,data\train\wikiart\Synthetic_Cubism\juan-gris_guitar-and-pipe-1913.jpg,Synthetic_Cubism
+s01,data\train\wikiart\Minimalism\dan-flavin_greens-crossing-greens-to-piet-mondrian-who-lacked-green-1966.jpg,Minimalism
+s02,data\train\wikiart\Early_Renaissance\masaccio_the-tribute-money-1425.jpg,Early_Renaissance
+s03,data\train\wikiart\Baroque\william-hogarth_the-pit.jpg,Baroque
+s04,data\train\wikiart\Post_Impressionism\ferdinand-hodler_landscape-near-champery-1913.jpg,Post_Impressionism
+s05,data\train\wikiart\Cubism\joan-miro_the-carbide-lamp-1923.jpg,Cubism
+s06,data\train\wikiart\Naive_Art_Primitivism\kateryna-bilokur_in-bogdanovka-by-the-dam-1955.jpg,Naive_Art_Primitivism
+s07,data\train\wikiart\High_Renaissance\pietro-perugino_christ-on-the-sarcophagus.jpg,High_Renaissance
+s08,data\train\wikiart\Realism\alexey-venetsianov_a-peasant-woman-combing-flax-anisia.jpg,Realism
+s09,data\train\wikiart\Ukiyo_e\kitagawa-utamaro_the-geisha-kamekichi.jpg,Ukiyo_e

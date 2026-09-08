@@ -1,0 +1,20 @@
+category,metric,condition,value,ci_low,ci_high,n,interpretation
+monotonicity,lpips_spearman,global_alpha,0.39067,0.35133,0.43083,600,higher alpha tends to increase content deviation
+monotonicity,csd_spearman,global_alpha,0.67183,0.64550,0.69767,600,higher alpha tends to increase target-style similarity
+monotonicity,lpips_adjacent_violation_rate,global_alpha,0.32125,0.30708,0.33542,600,pairwise response is not strictly monotone
+monotonicity,csd_adjacent_violation_rate,global_alpha,0.27208,0.25500,0.28875,600,pairwise response is not strictly monotone
+locality,direction_success,protected_vs_inverted,0.60833,0.57000,0.64833,600,spatial-map response follows the intended direction in a majority of cells
+locality,locality_contrast,protected_vs_inverted,0.014792,0.013217,0.016387,600,positive mean locality contrast
+locality,locality_contrast_median,protected_vs_inverted,0.01297,,,600,descriptive median
+locality,protected_boundary_residual,protected,0.02267,,,600,descriptive boundary residual
+locality,inverted_boundary_residual,inverted,0.01337,,,600,descriptive boundary residual
+global_endpoint,lpips,alpha_0,0.46955,,,600,mean content perceptual distance
+global_endpoint,csd,alpha_0,0.07867,,,600,mean target-style similarity
+global_endpoint,lpips,alpha_1,0.55980,,,600,mean content perceptual distance
+global_endpoint,csd,alpha_1,0.30777,,,600,mean target-style similarity
+ocr,ocr_similarity,alpha_050,0.558944,,,600,equal-mean global control
+ocr,ocr_similarity,protected,0.564468,,,600,text-and-logo protected spatial map
+ocr,ocr_similarity,inverted,0.534910,,,600,inverted spatial map
+ocr_delta,protected_minus_alpha050,paired,0.00552,,,600,protected map minus global alpha 0.5
+ocr_delta,protected_minus_inverted,paired,0.02956,,,600,protected map minus inverted map
+ocr_delta,inverted_minus_alpha050,paired,-0.02403,,,600,inverted map minus global alpha 0.5

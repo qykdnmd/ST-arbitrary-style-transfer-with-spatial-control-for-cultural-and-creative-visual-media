@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "checked_methods": 6,
+  "checked_input_records": 40000,
+  "checked_csd_pairs": 30000,
+  "csd_source_sha256": "37471b19c585fe0ed07cc1ebfdda95055ab4bd3c7d2ed532752f0c4123c359cb",
+  "run_provenance_sha256": "25cde7f2beaaf55643680c8a1aee2f05bc871d5731400d0847109e24098388d5",
+  "lpips_weight_sha256": {
+    "[USER_HOME]/.cache\\torch\\hub\\checkpoints\\alexnet-owt-7be5be79.pth": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02",
+    "[USER_HOME]/AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\lpips\\weights\\v0.1\\alex.pth": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+  },
+  "results": [
+    {
+      "method": "ccstytr",
+      "n": 5000,
+      "fid_finite": 6.497736381084081,
+      "lpips_content": 0.47174492478370667,
+      "artfid_finite": 11.034755466226652,
+      "fid_independent": 6.497736381084248,
+      "fid_abs_check_error": 1.6697754290362354e-13,
+      "csd_similarity_mean": 0.3011617579927668,
+      "lpips_change_from_historical": 3.516674041748047e-06
+    },
+    {
+      "method": "aesfa",
+      "n": 5000,
+      "fid_finite": 9.122927984053725,
+      "lpips_content": 0.5969693660736084,
+      "artfid_finite": 16.16600588550307,
+      "fid_independent": 9.122927984053803,
+      "fid_abs_check_error": 7.815970093361102e-14,
+      "csd_similarity_mean": 0.3094917083373293,
+      "lpips_change_from_historical": 4.410743713378906e-06
+    },
+    {
+      "method": "stytr2",
+      "n": 5000,
+      "fid_finite": 5.677083318047423,
+      "lpips_content": 0.5192493796348572,
+      "artfid_finite": 10.144154688713801,
+      "fid_independent": 5.6770833180477,
+      "fid_abs_check_error": 2.7711166694643907e-13,
+      "csd_similarity_mean": 0.2930412811757997,
+      "lpips_change_from_historical": 6.496906280517578e-06
+    },
+    {
+      "method": "adain",
+      "n": 5000,
+      "fid_finite": 6.769444324976234,
+      "lpips_content": 0.5952713489532471,
+      "artfid_finite": 12.394371928921988,
+      "fid_independent": 6.769444324976604,
+      "fid_abs_check_error": 3.694822225952521e-13,
+      "csd_similarity_mean": 0.3440982412973419,
+      "lpips_change_from_historical": 5.602836608886719e-06
+    },
+    {
+      "method": "sanet",
+      "n": 5000,
+      "fid_finite": 7.01763331144581,
+      "lpips_content": 0.6050910949707031,
+      "artfid_finite": 12.86903183094214,
+      "fid_independent": 7.017633311446023,
+      "fid_abs_check_error": 2.1316282072803006e-13,
+      "csd_similarity_mean": 0.4313272770196199,
+      "lpips_change_from_historical": 6.377696990966797e-06
+    },
+    {
+      "method": "cast",
+      "n": 5000,
+      "fid_finite": 4.218837466492602,
+      "lpips_content": 0.5163151621818542,
+      "artfid_finite": 7.913402379405467,
+      "fid_independent": 4.218837466492776,
+      "fid_abs_check_error": 1.7408297026122455e-13,
+      "csd_similarity_mean": 0.42693815707936883,
+      "lpips_change_from_historical": 6.258487701416016e-06
+    }
+  ],
+  "note": "Old infinity-labeled scores are preserved, not validated as infinity estimates. CSD is reused and its per-pair mean is checked; ArtFID and LPIPS are freshly recomputed.",
+  "public_derivative": {
+    "reason": "Local weight-cache paths redacted; checkpoint hashes and numerical checks unchanged",
+    "original_sha256": "69fc529747c8135d8473e10be24c838b2678d5a7cd2581753d5642c8b6486188",
+    "public_run_provenance_sha256": "0b2c8193c7234d9aff534b17d253adba0b864d77ac85d6389fb47adde85fdc18",
+    "note": "run_provenance_sha256 remains the original private provenance hash. The public derivative is separately linked here."
+  }
+}

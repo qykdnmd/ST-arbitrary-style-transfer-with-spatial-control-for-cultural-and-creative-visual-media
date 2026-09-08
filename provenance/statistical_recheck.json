@@ -1,0 +1,15 @@
+{
+  "observations": 4000,
+  "comparisons": 20,
+  "checks": {
+    "w_statistic": true,
+    "raw_p": true,
+    "bonferroni_adjusted_p": true,
+    "rank_biserial_r": true
+  },
+  "all_bonferroni_significant": true,
+  "numpy_version": "2.4.0",
+  "pandas_version": "3.0.3",
+  "scipy_version": "1.17.1",
+  "scope": "Paired Wilcoxon and rank-biserial effects only; mixed effects and bootstrap not rerun"
+}
