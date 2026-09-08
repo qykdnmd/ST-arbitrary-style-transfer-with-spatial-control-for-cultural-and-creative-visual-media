@@ -95,8 +95,8 @@
     {
       "path": "README.md",
       "original_sha256": "9d232dfa58994094902c095aa01a5f994795b4c7335d45b5b3e187d6b7ce7add",
-      "reason": "Document public derivative lineage. Public repository link/status subsequently updated.",
-      "public_sha256": "d5252180c1080f3e0d3d9106d723aca4dd54c45ff24685ceb641300220d5d2fb"
+      "reason": "Document public derivative lineage. Public repository link/status subsequently updated. Research-use policy subsequently clarified; privacy redactions retained.",
+      "public_sha256": "ae31af34020becdcb2683a8f274675b78cf71b69a7eacd09780a88b167f09b1f"
     },
     {
       "path": "REPRODUCE.md",
@@ -107,8 +107,8 @@
     {
       "path": "DATA_AVAILABILITY.md",
       "original_sha256": "d7ae920246599fd49d64c48e86c01bb9dfc2b4e2a4fe8a41d0a2686d1be44aa6",
-      "reason": "Document public derivative lineage. Public repository link/status subsequently updated.",
-      "public_sha256": "fae4977ec6388ffeafdf02d0e07e3cfae81ef02c5575749a068092b92a0b7b56"
+      "reason": "Document public derivative lineage. Public repository link/status subsequently updated. Research-use policy subsequently clarified; privacy redactions retained.",
+      "public_sha256": "dd96ee2c1558802537877631f733e9ecad4495c1edddafc107c7151d9376f4eb"
     },
     {
       "path": "results/artfid5000/README.md",
@@ -119,8 +119,8 @@
     {
       "path": "UPLOAD_READINESS.md",
       "original_sha256": "198c85db937ca1515477f0358ea1fbb1ebe728f563c124ea7badee1c687b804a",
-      "reason": "Mark machine-path privacy issue addressed; other publication conditions remain. Public repository link/status subsequently updated.",
-      "public_sha256": "7dd572b0818443d0f3e02968da3d44b3dcc4d65b90a7d2f528361ecb83849c6d"
+      "reason": "Mark machine-path privacy issue addressed; other publication conditions remain. Public repository link/status subsequently updated. Research-use policy subsequently clarified; privacy redactions retained.",
+      "public_sha256": "2bf1c98128334abec826e11d944d1d33a46de94e8eaecf7ab86e9353c6fbc957"
     },
     {
       "path": "scripts/prepare_submission_assets.ps1",
