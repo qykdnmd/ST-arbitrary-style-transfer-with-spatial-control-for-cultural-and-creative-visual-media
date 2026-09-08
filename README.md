@@ -4,6 +4,10 @@ Structure-aware Transformer-based style transfer with spatial control for cultur
 
 This collection provides the implementation, configurations, evaluation scripts, and machine-readable evidence accompanying the manuscript. **CC-StyTr (Main)** uses residual saliency gating and spatial α, identified by `residual_gating_spatial_alpha`. The manuscript refers to it as **the proposed model**.
 
+## Research use and permissions
+
+This repository is provided solely for academic research, evaluation, and reproduction of the study. No project-wide open-source license is granted. See [RESEARCH_USE.md](RESEARCH_USE.md). Third-party materials retain their own terms; a research purpose does not resolve missing or conflicting permissions.
+
 ## Reproduction resources
 
 - [Models and experiment-to-file mapping](RESULTS_MAP.md)

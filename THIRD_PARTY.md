@@ -17,3 +17,9 @@ Obtain AesFA, StyTr², AdaIN, SANet, CAST, CSD, ArtInception, VGG, and other thi
 Some manifests contain relative paths rather than persistent download addresses, and not every source image has a SHA256 record. These manifests alone are therefore not a complete accessible data archive. Before submission, establish access or peer-review arrangements for source images, generated results, and restricted materials.
 
 For the current finite ArtFID experiment, use the package versions, art-trained Inception checkpoint hash, and exact source hashes in `paper/evidence/artfid5000_finite_20260908/provenance.json`. The matching source snapshot is included there. The current `artfid5000_provenance.json` links the combined table to its finite and CSD sources. CSD uses the unchanged provenance under `results/artfid5000/historical_infinity/`.
+
+## Research-use scope and unresolved permissions
+
+The [research-use statement](RESEARCH_USE.md) does not relicense any upstream material or restrict rights already granted by an upstream license. Existing third-party LICENSE/NOTICE files remain unchanged.
+
+The bundled StyTR-2 tree has no standalone LICENSE file. ArtFID has no standalone LICENSE file in the bundled tree; its README links to MIT while setup.py declares Apache License 2.0. These observations do not establish the applicable permission. Verify the relevant revision and rights-holder authorization before relying on redistribution or reuse rights. The statement of academic purpose does not resolve these issues, including for source snapshots.

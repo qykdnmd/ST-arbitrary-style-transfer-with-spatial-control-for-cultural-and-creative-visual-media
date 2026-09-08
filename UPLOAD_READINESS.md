@@ -4,9 +4,9 @@
 
 The finite-sample ArtFID results, current tables, provenance links and documented evaluation entry point have been synchronized. GitHub repository: https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media. This upload does not establish a permanently archived release or DOI. File size is not a GitHub upload blocker. Public redistribution and submission-archive readiness remain conditional on the items below. This assessment covers the uploaded collection; the upload does not resolve the licensing and external-access conditions below.
 
-## Required decisions before a public release
+## Research-use policy and remaining publication conditions
 
-1. **Project license:** no top-level project LICENSE is present. The author must choose appropriate terms for original code and data after checking ownership and dependencies. No license was assigned automatically.
+1. **Project policy (decided):** the author has chosen a research-use statement rather than a project-wide open-source license. See RESEARCH_USE.md. No top-level LICENSE is added. This intended-use statement does not grant blanket reuse rights or resolve third-party permissions.
 2. **Third-party redistribution:** the local StyTR-2 and ArtFID trees have no standalone LICENSE. ArtFID's README links to MIT, while its setup.py declares Apache License 2.0. Resolve the applicable upstream terms and required notices, or distribute acquisition instructions pinned to verified revisions instead of bundling unclear code. This also applies to the ArtFID source snapshot. AesFA, CAST, CSD, AdaIN and SANet include license files, but their presence alone is not a complete license audit.
 3. **Image permissions:** included qualitative figures, example images and derived visual assets require source-specific permission checks. Source availability does not establish redistribution rights.
 4. **Access for reproduction:** author-trained checkpoints, source images, complete generated outputs and feature arrays are not bundled. Provide accessible archives or documented review-access arrangements and precise links. Hashes do not provide access. Add a versioned public release and permanent archive identifier when available; do not claim an existing DOI.

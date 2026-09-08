@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-08T04:23:30.136654+00:00",
+  "checked_at": "2026-09-08T04:41:47.640371+00:00",
   "scope": "artifact integrity, row counts, means, syntax; not GPU reproduction",
-  "artifact_files_verified": 518,
+  "artifact_files_verified": 519,
   "spatial_result_hashes": {
     "global_per_pair.csv": true,
     "monotonicity_per_pair.csv": true,

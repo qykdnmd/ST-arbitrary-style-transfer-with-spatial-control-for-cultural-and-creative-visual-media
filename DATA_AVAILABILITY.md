@@ -11,3 +11,7 @@ Code and the bundled evidence are distributed through https://github.com/qykdnmd
 The current release also includes the verified finite-sample ArtFID evidence, the 40,000-record image hash inventory, and evaluation source snapshots. Seven feature arrays and the actual evaluation images remain external; their recorded hashes are identifiers, not download links. Historical infinity-labeled results are retained separately and are superseded by the finite table.
 
 Public logs and machine metadata are privacy-redacted derivatives. Numerical results and exact evaluation source snapshots are unchanged. See [PUBLIC_REDACTION.md](PUBLIC_REDACTION.md) for original/public hash lineage.
+
+## Research use and permissions
+
+This repository is provided solely for academic research, evaluation, and reproduction of the study. No project-wide open-source license is granted. See [RESEARCH_USE.md](RESEARCH_USE.md). Third-party materials retain their own terms; a research purpose does not resolve missing or conflicting permissions.

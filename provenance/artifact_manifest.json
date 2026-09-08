@@ -804,8 +804,8 @@
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "bytes": 2187,
-      "sha256": "fae4977ec6388ffeafdf02d0e07e3cfae81ef02c5575749a068092b92a0b7b56"
+      "bytes": 2528,
+      "sha256": "dd96ee2c1558802537877631f733e9ecad4495c1edddafc107c7151d9376f4eb"
     },
     {
       "path": "DATA_DICTIONARY.md",
@@ -2044,8 +2044,8 @@
     },
     {
       "path": "provenance/public_redactions.json",
-      "bytes": 7404,
-      "sha256": "b80f2f35b4c267821998b4542370fb5851559615aec09cc621d38d52f381356d"
+      "bytes": 7623,
+      "sha256": "f541b4b52a363501c51529a648b64b273c8cc87a4e33866109e0985cad7ca809"
     },
     {
       "path": "provenance/statistical_recheck.json",
@@ -2064,8 +2064,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2310,
-      "sha256": "d5252180c1080f3e0d3d9106d723aca4dd54c45ff24685ceb641300220d5d2fb"
+      "bytes": 2651,
+      "sha256": "ae31af34020becdcb2683a8f274675b78cf71b69a7eacd09780a88b167f09b1f"
     },
     {
       "path": "REPRODUCE.md",
@@ -2081,6 +2081,11 @@
       "path": "requirements.txt",
       "bytes": 102,
       "sha256": "0509b36e7c6f34c7439777bec1ed231b4d6ae13d6f63a1abe1aca8182c3bc683"
+    },
+    {
+      "path": "RESEARCH_USE.md",
+      "bytes": 1898,
+      "sha256": "e20f58ee8e4709e029076123163d4c8d67acba377ccf7248b5c9e333014a28b9"
     },
     {
       "path": "results/ablation/metrics_per_pair.csv",
@@ -2584,8 +2589,8 @@
     },
     {
       "path": "THIRD_PARTY.md",
-      "bytes": 2713,
-      "sha256": "6307a5b5414b352848f2bfe5b71f37ff12b47a67a5156edde8469d0c7a138f2c"
+      "bytes": 3426,
+      "sha256": "888d1b987fd4cdfe5307ea09c2157190f49d368db9804d33121392b6fa9d740b"
     },
     {
       "path": "train.py",
@@ -2594,8 +2599,8 @@
     },
     {
       "path": "UPLOAD_READINESS.md",
-      "bytes": 4765,
-      "sha256": "7dd572b0818443d0f3e02968da3d44b3dcc4d65b90a7d2f528361ecb83849c6d"
+      "bytes": 4844,
+      "sha256": "2bf1c98128334abec826e11d944d1d33a46de94e8eaecf7ab86e9353c6fbc957"
     }
   ]
 }
