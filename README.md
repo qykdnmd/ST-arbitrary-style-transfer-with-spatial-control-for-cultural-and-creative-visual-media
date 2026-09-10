@@ -19,12 +19,12 @@ This repository is provided solely for academic research, evaluation, and reprod
 
 The collection includes five equal-budget configurations, tests, per-pair measurements, statistical evidence, manuscript figures, sampling manifests, and 120 spatial α masks. Checkpoints are stored separately. Source image collections and complete generated-image collections are not bundled with the code.
 
-Repository: https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media. A permanent archived release and DOI have not yet been assigned. The environment record is in `provenance/environment.json`, and file hashes are in `provenance/artifact_manifest.json`. Experiment-specific protocols and implementation versions are recorded in the corresponding evidence/provenance files. Evaluation datasets and statistical test families must be interpreted separately.
+Repository: https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media. GitHub release [`v0.1.0`](https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media/releases/tag/v0.1.0) was published on 2026-09-08. A permanent archive identifier / DOI has not yet been confirmed in this repository; do not cite a DOI until the corresponding Zenodo record is verified. The environment record is in `provenance/environment.json`, and file hashes are in `provenance/artifact_manifest.json`. Experiment-specific protocols and implementation versions are recorded in the corresponding evidence/provenance files. Evaluation datasets and statistical test families must be interpreted separately.
 
 ## Current ArtFID evidence
 
 The 5,000-pair table uses verified ordinary finite-sample ArtFID, not ArtFID-infinity. See [current results and provenance](results/artfid5000/README.md). Historical files are retained for traceability and are not current manuscript results.
 
-Before public publication, resolve the outstanding items in [Upload readiness](UPLOAD_READINESS.md). The successful numerical checks do not establish permission to redistribute every bundled asset.
+Before archival or manuscript submission, resolve the outstanding items in [Upload readiness](UPLOAD_READINESS.md), including third-party redistribution permissions, access arrangements for external resources, and the permanent archive identifier. The successful numerical checks do not establish permission to redistribute every bundled asset.
 
 Public logs and machine metadata are privacy-redacted derivatives. Numerical results and exact evaluation source snapshots are unchanged. See [PUBLIC_REDACTION.md](PUBLIC_REDACTION.md) for original/public hash lineage.

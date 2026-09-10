@@ -2,14 +2,14 @@
 
 ## Conclusion
 
-The finite-sample ArtFID results, current tables, provenance links and documented evaluation entry point have been synchronized. GitHub repository: https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media. This upload does not establish a permanently archived release or DOI. File size is not a GitHub upload blocker. Public redistribution and submission-archive readiness remain conditional on the items below. This assessment covers the uploaded collection; the upload does not resolve the licensing and external-access conditions below.
+The finite-sample ArtFID results, current tables, provenance links and documented evaluation entry point have been synchronized. GitHub repository: https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media. GitHub release [`v0.1.0`](https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media/releases/tag/v0.1.0) was published on 2026-09-08. A permanent archive identifier / DOI has not yet been confirmed in this repository. Public redistribution and submission-archive readiness remain conditional on the items below. This assessment covers the uploaded collection; the GitHub release does not resolve the licensing and external-access conditions below.
 
 ## Research-use policy and remaining publication conditions
 
 1. **Project policy (decided):** the author has chosen a research-use statement rather than a project-wide open-source license. See RESEARCH_USE.md. No top-level LICENSE is added. This intended-use statement does not grant blanket reuse rights or resolve third-party permissions.
 2. **Third-party redistribution:** the local StyTR-2 and ArtFID trees have no standalone LICENSE. ArtFID's README links to MIT, while its setup.py declares Apache License 2.0. Resolve the applicable upstream terms and required notices, or distribute acquisition instructions pinned to verified revisions instead of bundling unclear code. This also applies to the ArtFID source snapshot. AesFA, CAST, CSD, AdaIN and SANet include license files, but their presence alone is not a complete license audit.
 3. **Image permissions:** included qualitative figures, example images and derived visual assets require source-specific permission checks. Source availability does not establish redistribution rights.
-4. **Access for reproduction:** author-trained checkpoints, source images, complete generated outputs and feature arrays are not bundled. Provide accessible archives or documented review-access arrangements and precise links. Hashes do not provide access. Add a versioned public release and permanent archive identifier when available; do not claim an existing DOI.
+4. **Access for reproduction and permanent archiving:** author-trained checkpoints, source images, complete generated outputs and feature arrays are not bundled. Provide accessible archives or documented review-access arrangements and precise links. Hashes do not provide access. The GitHub `v0.1.0` release now exists; verify the corresponding permanent archive record and DOI before citing one, and add the verified identifier to README/Data Availability once confirmed.
 5. **Machine metadata (addressed):** local usernames and absolute machine paths have been removed from the public files. Originals are held outside the release; public derivatives and their hash lineage are documented in PUBLIC_REDACTION.md. Future generated logs still require review.
 
 ## Technical scope
@@ -25,7 +25,7 @@ A pattern-based scan found no private-key headers or common GitHub, Hugging Face
 - [GitHub large-file limits](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github): warnings above 50 MiB and ordinary Git files blocked above 100 MiB.
 - [GitHub licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository): public visibility is not a substitute for a license.
 
-The README and Data Availability statement should be updated again after actual publication, with real repository/archive and checkpoint links.
+README and Data Availability should be updated again after the permanent archive record is verified, using the real DOI/archive URL and any final checkpoint/access links.
 
 ## Verification performed during synchronization
 
