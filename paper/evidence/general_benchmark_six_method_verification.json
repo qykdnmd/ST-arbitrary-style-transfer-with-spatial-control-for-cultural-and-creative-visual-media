@@ -1,0 +1,17 @@
+{
+  "schema": "general_six_method_merge_v1",
+  "methods": 6,
+  "pairs_per_method": 800,
+  "tests": 25,
+  "correction": "min(1, raw_p * 25)",
+  "all_25_significant": true,
+  "ccstytr_reference_values_identical": true,
+  "max_adjusted_p": 8.364021583050905e-60,
+  "inputs": {
+    "metrics_per_pair_full.csv": "2fff59820fda903c0bd874c3950d4f21c9f0c59f1782028e63b96a56863e19fc",
+    "aesfa_extension_metrics_per_pair_full.csv": "e31feab308c76900c996c79b2fd9f432b85d5ecd19629dc82a56c55a32bbd397",
+    "wilcoxon_pairwise.csv": "17db7fea7bc56cdb0da475207f9ae40897744e156990338686cc5d770c43d036",
+    "aesfa_extension_pairwise.csv": "bdc8f2f0ef04aa41fd8a98c3da5dd89ec22cb86a0707422ad9537a69805f3ab8"
+  },
+  "note": "Original test statistics and bootstrap intervals retained; only the Bonferroni family is unified. AesFA has crossed-bootstrap intervals, not a fitted mixed-effects interval."
+}

@@ -1,0 +1,7 @@
+baseline,metric,n_pairs,content_levels,style_levels,mean_paired_difference,crossed_bootstrap_ci95_low,crossed_bootstrap_ci95_high,n_bootstrap,seed,direction,interval_scope
+aesfa,ssim,3600,120,30,0.30505416666666674,0.28826985208333333,0.3220731041666667,10000,20261014,positive favors CC-StyTr,"marginal, not simultaneous"
+aesfa,lpips,3600,120,30,0.25299894444444443,0.2390074930555556,0.2665901680555555,10000,20261014,positive favors CC-StyTr,"marginal, not simultaneous"
+aesfa,e_ssim,3600,120,30,0.28782225,0.2691863048611111,0.3061975006944444,10000,20261014,positive favors CC-StyTr,"marginal, not simultaneous"
+aesfa,l_c,3600,120,30,2.0078537499999998,1.908876422222222,2.1031532097222225,10000,20261014,positive favors CC-StyTr,"marginal, not simultaneous"
+aesfa,l_s,3600,120,30,0.07569994444444446,-0.03313600000000002,0.19224264097222216,10000,20261014,positive favors CC-StyTr,"marginal, not simultaneous"
+aesfa,ocr_sim,3570,119,30,0.2821956862745098,0.2468911792717087,0.3184909404761904,10000,20261014,positive favors CC-StyTr,"marginal, not simultaneous"

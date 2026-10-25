@@ -1,0 +1,92 @@
+{
+  "checked_utc": "2026-10-15T15:00:19.303020+00:00",
+  "scope": "Read-only GitHub license endpoints at recorded experiment revisions; no source trees or binaries redistributed.",
+  "observations": [
+    {
+      "name": "AesFA",
+      "repository": "https://github.com/Sooyyoungg/AesFA",
+      "revision": "00449adf205e93f430dd54799b44a26d740706e1",
+      "api_url": "https://api.github.com/repos/Sooyyoungg/AesFA/license?ref=00449adf205e93f430dd54799b44a26d740706e1",
+      "http_status": 200,
+      "response_sha256": "895bfa9d62aeb1870d1c8212e46f5765f60dc077baa4009c2bab6a0f1635c2c0",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/Sooyyoungg/AesFA/blob/00449adf205e93f430dd54799b44a26d740706e1/LICENSE",
+      "license_blob_sha": "a783f672896073f401e54faea9b2cb8a9d1e17cc",
+      "license_text_sha256": "c5da27e032d8184e867a47e596ebf052bd1ab2e6c91ae6e1ebb057937ea43a5f",
+      "license_name": "MIT License",
+      "spdx_id": "MIT",
+      "status": "license_file_observed_at_recorded_revision"
+    },
+    {
+      "name": "CAST_pytorch",
+      "repository": "https://github.com/zyxElsa/CAST_pytorch",
+      "revision": "67a7d9c1e9c1931db5d535385eca9861875049a8",
+      "api_url": "https://api.github.com/repos/zyxElsa/CAST_pytorch/license?ref=67a7d9c1e9c1931db5d535385eca9861875049a8",
+      "http_status": 200,
+      "response_sha256": "66aa47f25897f955a6c0da9099dd15de1405ac7cd0b74e8c4cbafe3a641911be",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/zyxElsa/CAST_pytorch/blob/67a7d9c1e9c1931db5d535385eca9861875049a8/LICENSE",
+      "license_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "license_text_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "license_name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "status": "license_file_observed_at_recorded_revision"
+    },
+    {
+      "name": "CSD",
+      "repository": "https://github.com/learn2phoenix/CSD",
+      "revision": "3a9df32605b869eceb704897839be80977a9f1ea",
+      "api_url": "https://api.github.com/repos/learn2phoenix/CSD/license?ref=3a9df32605b869eceb704897839be80977a9f1ea",
+      "http_status": 200,
+      "response_sha256": "81c44608e5a01374362010799234a7204561c77b863992b0c64e5db455722328",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/learn2phoenix/CSD/blob/3a9df32605b869eceb704897839be80977a9f1ea/LICENSE",
+      "license_blob_sha": "025b859c75f761016c7f5e660bfcbac7d3868a62",
+      "license_text_sha256": "3171265d9631dab990d16446d90575282d0d1e2811913d6ce64355c54ae9ab0a",
+      "license_name": "MIT License",
+      "spdx_id": "MIT",
+      "status": "license_file_observed_at_recorded_revision"
+    },
+    {
+      "name": "pytorch-AdaIN",
+      "repository": "https://github.com/naoto0804/pytorch-AdaIN",
+      "revision": "47950d0e6656a95a80a4b105c4c0f58d38ef785c",
+      "api_url": "https://api.github.com/repos/naoto0804/pytorch-AdaIN/license?ref=47950d0e6656a95a80a4b105c4c0f58d38ef785c",
+      "http_status": 200,
+      "response_sha256": "395dd3df9da0d96b05feda4d3af7b4fe9f5e9e67aaa9c4fd73e87305c3be338c",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/naoto0804/pytorch-AdaIN/blob/47950d0e6656a95a80a4b105c4c0f58d38ef785c/LICENSE",
+      "license_blob_sha": "82c7b41af6e01f19c7aa154c8a8f0fae72eddb96",
+      "license_text_sha256": "cac60b351360e641823e739fa9701bc22dc0547d300d1c54c4a0c040fc6e6e2b",
+      "license_name": "MIT License",
+      "spdx_id": "MIT",
+      "status": "license_file_observed_at_recorded_revision"
+    },
+    {
+      "name": "SANET",
+      "repository": "https://github.com/GlebSBrykin/SANET",
+      "revision": "2dfec142cf9bb4c7915a28284097fd4ea9dca251",
+      "api_url": "https://api.github.com/repos/GlebSBrykin/SANET/license?ref=2dfec142cf9bb4c7915a28284097fd4ea9dca251",
+      "http_status": 200,
+      "response_sha256": "af8bf3c3c01fb8a1c8a5385463842b31edbad44baec4ea399d829ac5ba39de48",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/GlebSBrykin/SANET/blob/2dfec142cf9bb4c7915a28284097fd4ea9dca251/LICENSE",
+      "license_blob_sha": "0a8f490a0533ba0586a915558d53831d23708fa0",
+      "license_text_sha256": "f943ed32477ed4d63df7dc0551cb11c99eec0c03de00d7e04da243a792630646",
+      "license_name": "MIT License",
+      "spdx_id": "MIT",
+      "status": "license_file_observed_at_recorded_revision"
+    },
+    {
+      "name": "StyTR-2",
+      "repository": "https://github.com/diyiiyiii/StyTR-2",
+      "revision": "c11ea32913d16dbf2f9a1f82ac077dbf90f143c6",
+      "api_url": "https://api.github.com/repos/diyiiyiii/StyTR-2/license?ref=c11ea32913d16dbf2f9a1f82ac077dbf90f143c6",
+      "http_status": 404,
+      "response_sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "status": "api_did_not_establish_a_license_at_recorded_revision"
+    }
+  ],
+  "caveat": "An API failure or an unidentified SPDX identifier is not proof of no license. Source-code terms do not establish weight, dataset or figure permissions.",
+  "external_publication_actions": []
+}

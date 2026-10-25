@@ -1,0 +1,231 @@
+{
+  "coco": {
+    "provider": "COCO official image archive",
+    "archive_url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+    "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+    "member": "annotations/captions_val2017.json",
+    "target_image_ids": [
+      94157,
+      226171,
+      435003
+    ],
+    "status": "metadata_extracted_crc_verified",
+    "member_sha256": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9",
+    "archive_bytes": 252907541,
+    "transferred_metadata_bytes": 806452,
+    "retrieved_ranges": [
+      {
+        "start": 252907519,
+        "end": 252907540,
+        "sha256": "b16cefc490ce897970ae82249c78bca9068eee796b2e032720aa40c529c81af7"
+      },
+      {
+        "start": 252907499,
+        "end": 252907518,
+        "sha256": "612574600bc7647bf4a0daaa485cd458c73cbfcb475f83a549c59b282976d09c"
+      },
+      {
+        "start": 252906877,
+        "end": 252907518,
+        "sha256": "9eea122562e29318d7cc448c6ce2bc011405730362f20804d3d5e461557465e3"
+      },
+      {
+        "start": 178103194,
+        "end": 178103223,
+        "sha256": "80e5e7f1592d23905a4d51ed6e179177e6120c303d6747840b368f9b2fede6fd"
+      },
+      {
+        "start": 178103224,
+        "end": 178103256,
+        "sha256": "52a2c823903f8110f06ae944e9e8d0bd7ed42cf7fd9c4be54572c43f97d514ed"
+      },
+      {
+        "start": 178103285,
+        "end": 178908989,
+        "sha256": "7f74a81ef4359c4594180b8be025a3bb11e7ff6c8409d60c6c9d33d074b378c0"
+      }
+    ],
+    "images": [
+      {
+        "license": 3,
+        "file_name": "000000094157.jpg",
+        "coco_url": "http://images.cocodataset.org/val2017/000000094157.jpg",
+        "height": 640,
+        "width": 372,
+        "date_captured": "2013-11-24 15:15:29",
+        "flickr_url": "http://farm9.staticflickr.com/8052/8137275244_b6b2c4498d_z.jpg",
+        "id": 94157,
+        "recorded_license": {
+          "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+          "id": 3,
+          "name": "Attribution-NonCommercial-NoDerivs License"
+        },
+        "status": "historical_official_per_image_license_identified_current_source_terms_and_credit_pending"
+      },
+      {
+        "license": 3,
+        "file_name": "000000435003.jpg",
+        "coco_url": "http://images.cocodataset.org/val2017/000000435003.jpg",
+        "height": 427,
+        "width": 640,
+        "date_captured": "2013-11-15 15:15:27",
+        "flickr_url": "http://farm1.staticflickr.com/106/283322282_c7c58460cc_z.jpg",
+        "id": 435003,
+        "recorded_license": {
+          "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+          "id": 3,
+          "name": "Attribution-NonCommercial-NoDerivs License"
+        },
+        "status": "historical_official_per_image_license_identified_current_source_terms_and_credit_pending"
+      },
+      {
+        "license": 1,
+        "file_name": "000000226171.jpg",
+        "coco_url": "http://images.cocodataset.org/val2017/000000226171.jpg",
+        "height": 480,
+        "width": 640,
+        "date_captured": "2013-11-15 16:42:58",
+        "flickr_url": "http://farm3.staticflickr.com/2023/2326077489_1bd4702f8b_z.jpg",
+        "id": 226171,
+        "recorded_license": {
+          "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+          "id": 1,
+          "name": "Attribution-NonCommercial-ShareAlike License"
+        },
+        "status": "historical_official_per_image_license_identified_current_source_terms_and_credit_pending"
+      }
+    ]
+  },
+  "artfid": {
+    "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+    "historical_recorded_revision": "6815130992cf0997e1a4afbc991c113273090f7f",
+    "public_revision_lookup": {
+      "url": "https://api.github.com/repos/matthias-wright/art-fid/commits/master",
+      "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+      "http_status": 200,
+      "response_sha256": "824d7a816a154b0ac25defe7dbb12a7b418897416bdf2ce948d48250e2cdb579",
+      "resolved_url": "https://api.github.com/repos/matthias-wright/art-fid/commits/master"
+    },
+    "historical_provenance_modified": false,
+    "public_revision": "37ce02ece6dcba5f3e8c846236644786a4a9b7f5",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/setup.py",
+        "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+        "http_status": 200,
+        "response_sha256": "624ea95e0d715be960a4f16b772952f57b8e9562537829b0c5030ad836bf6d7e",
+        "resolved_url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/setup.py",
+        "source_path": "setup.py",
+        "archived_sha256": "624ea95e0d715be960a4f16b772952f57b8e9562537829b0c5030ad836bf6d7e",
+        "byte_identical_to_archived_source": true,
+        "matches_after_lf_to_crlf_conversion": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/art_fid.py",
+        "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+        "http_status": 200,
+        "response_sha256": "f7949935f87a764db9b081d226c9fe6310ca23eb3298042826e20445c6821399",
+        "resolved_url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/art_fid.py",
+        "source_path": "art_fid/art_fid.py",
+        "archived_sha256": "485e982df76fb80428c19335991d8c231ab57b8d8f7e06762276402644ebe78b",
+        "byte_identical_to_archived_source": false,
+        "matches_after_lf_to_crlf_conversion": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/image_metrics.py",
+        "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+        "http_status": 200,
+        "response_sha256": "85aee89f78b118ca6fb50f33e251168c52ba9eb679a3db4b82deb2c16a830b5b",
+        "resolved_url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/image_metrics.py",
+        "source_path": "art_fid/image_metrics.py",
+        "archived_sha256": "85aee89f78b118ca6fb50f33e251168c52ba9eb679a3db4b82deb2c16a830b5b",
+        "byte_identical_to_archived_source": true,
+        "matches_after_lf_to_crlf_conversion": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/inception.py",
+        "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+        "http_status": 200,
+        "response_sha256": "2c2ceecaeea0e1ca80a0425639b64890718df33cd0a364279099ba7084ca8141",
+        "resolved_url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/inception.py",
+        "source_path": "art_fid/inception.py",
+        "archived_sha256": "2c2ceecaeea0e1ca80a0425639b64890718df33cd0a364279099ba7084ca8141",
+        "byte_identical_to_archived_source": true,
+        "matches_after_lf_to_crlf_conversion": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/utils.py",
+        "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+        "http_status": 200,
+        "response_sha256": "b1e825e9b15926d6b1f4c140d60c4790a64d766b97b37acd9672f1f40686d6f6",
+        "resolved_url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/utils.py",
+        "source_path": "art_fid/utils.py",
+        "archived_sha256": "b1e825e9b15926d6b1f4c140d60c4790a64d766b97b37acd9672f1f40686d6f6",
+        "byte_identical_to_archived_source": true,
+        "matches_after_lf_to_crlf_conversion": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/__init__.py",
+        "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+        "http_status": 200,
+        "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "resolved_url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/__init__.py",
+        "source_path": "art_fid/__init__.py",
+        "archived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "byte_identical_to_archived_source": true,
+        "matches_after_lf_to_crlf_conversion": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/__main__.py",
+        "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+        "http_status": 200,
+        "response_sha256": "4e30b9171f5bca01aab53a1dd01c0cae20640fa75671bd7895cda28fc74ba664",
+        "resolved_url": "https://raw.githubusercontent.com/matthias-wright/art-fid/37ce02ece6dcba5f3e8c846236644786a4a9b7f5/art_fid/__main__.py",
+        "source_path": "art_fid/__main__.py",
+        "archived_sha256": "4e30b9171f5bca01aab53a1dd01c0cae20640fa75671bd7895cda28fc74ba664",
+        "byte_identical_to_archived_source": true,
+        "matches_after_lf_to_crlf_conversion": false
+      }
+    ],
+    "all_seven_files_byte_identical": false,
+    "all_seven_files_match_exactly_or_by_line_endings": false,
+    "status": "file_identity_observation_only_license_conflict_not_resolved"
+  },
+  "wikiart_displayed_works": [
+    {
+      "url": "https://www.wikiart.org/en/rembrandt/portrait-of-nicolas-van-bambeeck-1641",
+      "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+      "http_status": 200,
+      "response_sha256": "dda44342d1fbb5d20eb79f5e0f619cdad615073cf76317b401a60b5c7f4633ca",
+      "resolved_url": "https://www.wikiart.org/en/rembrandt/portrait-of-nicolas-van-bambeeck-1641",
+      "artist_slug": "rembrandt",
+      "artwork_slug": "portrait-of-nicolas-van-bambeeck-1641",
+      "page_public_domain_label_observed": true,
+      "status": "provider_label_only_reproduction_source_and_exact_input_identity_not_certified"
+    },
+    {
+      "url": "https://www.wikiart.org/en/pietro-perugino/st-jerome-who-attends-two-unfairly-hanged-1473",
+      "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+      "http_status": 200,
+      "response_sha256": "f4b5110d6ccc0145cb90fd70251f12c6b94d117064ffcc59475e6b9cdbf00929",
+      "resolved_url": "https://www.wikiart.org/en/pietro-perugino/st-jerome-who-attends-two-unfairly-hanged-1473",
+      "artist_slug": "pietro-perugino",
+      "artwork_slug": "st-jerome-who-attends-two-unfairly-hanged-1473",
+      "page_public_domain_label_observed": true,
+      "status": "provider_label_only_reproduction_source_and_exact_input_identity_not_certified"
+    },
+    {
+      "url": "https://www.wikiart.org/en/raphael/madonna-and-child-enthroned-with-saints-1505",
+      "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+      "http_status": 200,
+      "response_sha256": "4d7556b59d52f43c0af47e3ad27d0c0eceaaaeb944121e14f29595c701c096d1",
+      "resolved_url": "https://www.wikiart.org/en/raphael/madonna-and-child-enthroned-with-saints-1505",
+      "artist_slug": "raphael",
+      "artwork_slug": "madonna-and-child-enthroned-with-saints-1505",
+      "page_public_domain_label_observed": true,
+      "status": "provider_label_only_reproduction_source_and_exact_input_identity_not_certified"
+    }
+  ],
+  "checked_utc": "2026-10-15T15:08:39.381388+00:00",
+  "scope": "Public metadata and code-file hashes only; no artwork pixels, model binaries or private information transferred; no permissions granted or messages sent."
+}

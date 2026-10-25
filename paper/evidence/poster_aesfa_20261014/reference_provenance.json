@@ -1,0 +1,18 @@
+{
+  "selected_model": "residual_gating_spatial_alpha",
+  "selected_checkpoint_sha256": "2601b1074dfbec80df7042a00720b67ffe2926de67bbe424949ea906c32efc97",
+  "method_sources": {
+    "ccstytr": "archived selected residual-gating spatial-alpha ablation measurements",
+    "stytr2": "unchanged featured measurements",
+    "adain": "unchanged featured measurements",
+    "sanet": "unchanged featured measurements",
+    "cast": "unchanged featured measurements"
+  },
+  "model_selection_unchanged": true,
+  "all_3600_selected_measurements_match_preexisting_archive": true,
+  "canonical_source_sha256": "64e16b21dcf98e4d691494e4409a48cabf50703461c4d8582c881a58e9a55280",
+  "reference_metrics_sha256": "9f964bbed328b78589b3eec223f3e564d4a9566d9eed18dc2038b8cb8ce741fc",
+  "source_ocr_sha256": "084b514d3bbc62209aad8d1f5c233a2ccf406a9df5820bf6d27b71ca80ac9336",
+  "preexisting_public_archive_sha256": "ffa8cf061f23aed776c69b600387384523b7394c8b401eeda35a3ae0d830cce6",
+  "processing": "Original numeric strings retained; absolute output paths replaced by content/style IDs and cell identifiers. No raw archived measurements overwritten."
+}

@@ -1,0 +1,3 @@
+2026.10.25-peerj-ai-application
+Manuscript: PeerJ Computer Science 148632
+Implementation version remains 0.1.0; packaging/documentation revision only.

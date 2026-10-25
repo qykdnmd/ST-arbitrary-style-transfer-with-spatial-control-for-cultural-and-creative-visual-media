@@ -1,0 +1,92 @@
+{
+  "checked_utc": "2026-10-25T04:10:23.880788+00:00",
+  "python": "3.13.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "numpy": "2.4.0",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "statsmodels": "0.14.6",
+    "pytest": "9.1.1",
+    "Pillow": "12.2.0",
+    "PyYAML": "6.0.3",
+    "lpips": "0.1.4",
+    "scikit-image": "0.26.0",
+    "tensorboard": "2.21.0",
+    "tqdm": "4.67.1"
+  },
+  "checks": {
+    "cpu_pytest": {
+      "tests": 36,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "pass": true,
+      "excluded_test_file": "tests/test_finite_release.py",
+      "reason": "Exact historical upstream source snapshot and its historical redaction manifest are omitted from this distribution; not counted as passed."
+    },
+    "train_help": {
+      "exit_code": 0,
+      "pass": true
+    },
+    "infer_help": {
+      "exit_code": 0,
+      "pass": true
+    },
+    "paired_infer_help": {
+      "exit_code": 0,
+      "pass": true
+    },
+    "evaluate_help": {
+      "exit_code": 0,
+      "pass": true
+    },
+    "render_general": {
+      "exit_code": 0,
+      "pass": true
+    },
+    "render_poster": {
+      "exit_code": 0,
+      "pass": true
+    },
+    "numerical_reanalysis": {
+      "exit_code": 0,
+      "pass": true,
+      "wilcoxon_tests_recomputed": 25,
+      "all_numerical_checks_pass": true
+    }
+  },
+  "not_executed": [
+    "GPU inference",
+    "model retraining",
+    "original-image grid regeneration",
+    "mixed-effects refits",
+    "fresh Inception/CSD feature extraction"
+  ],
+  "pass": true,
+  "scope": "Current frozen-measurement numerical reanalysis, CPU unit tests and CLI entry points; not full experimental reproduction.",
+  "dependency_fix_sources": [
+    "https://docs.scipy.org/doc/scipy-1.14.1/reference/generated/scipy.stats.wilcoxon.html",
+    "https://docs.scipy.org/doc/scipy-1.15.0/reference/generated/scipy.stats.wilcoxon.html"
+  ],
+  "python_syntax_files_checked": 89,
+  "changed_original_members": [
+    "AI_USE.md",
+    "DATA_AVAILABILITY.md",
+    "PERMISSION_STATUS.md",
+    "README.md",
+    "REPRODUCE.md",
+    "requirements-dev.txt",
+    "requirements-evaluation.txt",
+    "requirements-statistics.txt",
+    "RESOURCE_ACCESS.md"
+  ],
+  "algorithms_configs_and_measurements_unchanged": true,
+  "private_connection_scan_pass": true,
+  "checkpoint_integrity": {
+    "all_five_locally_verified": false,
+    "verified_count": 0
+  }
+}

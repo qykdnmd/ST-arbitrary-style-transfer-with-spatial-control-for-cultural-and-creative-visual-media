@@ -1,0 +1,70 @@
+{
+  "pass": true,
+  "transferred_files_sha256_verified": 20,
+  "all_six_complete_image_metric_grids": true,
+  "unchanged_four_baseline_records": true,
+  "selected_model_all_3600_records_match_preexisting_archive": true,
+  "ocr_pairs_per_method": 3570,
+  "shared_reference_token_counts_verified": true,
+  "source_textless_poster": "2508",
+  "means_independently_reaggregated_with_math_fsum": true,
+  "bootstrap_verification": "60,000 explicit repeated-index samples; every CI endpoint agrees within 1e-12",
+  "comparisons": [
+    {
+      "metric": "ssim",
+      "replicates_reconstructed": 10000,
+      "difference": 0.30505416666666674,
+      "ci95": [
+        0.28826985208333333,
+        0.3220731041666667
+      ]
+    },
+    {
+      "metric": "lpips",
+      "replicates_reconstructed": 10000,
+      "difference": 0.25299894444444443,
+      "ci95": [
+        0.23900749305555552,
+        0.2665901680555555
+      ]
+    },
+    {
+      "metric": "e_ssim",
+      "replicates_reconstructed": 10000,
+      "difference": 0.28782225,
+      "ci95": [
+        0.2691863048611111,
+        0.3061975006944444
+      ]
+    },
+    {
+      "metric": "l_c",
+      "replicates_reconstructed": 10000,
+      "difference": 2.0078537499999998,
+      "ci95": [
+        1.908876422222222,
+        2.1031532097222225
+      ]
+    },
+    {
+      "metric": "l_s",
+      "replicates_reconstructed": 10000,
+      "difference": 0.07569994444444446,
+      "ci95": [
+        -0.033136,
+        0.19224264097222216
+      ]
+    },
+    {
+      "metric": "ocr_sim",
+      "replicates_reconstructed": 10000,
+      "difference": 0.2821956862745098,
+      "ci95": [
+        0.2468911792717087,
+        0.3184909404761905
+      ]
+    }
+  ],
+  "input_archive_sha256": "6f4dc13d6751750fa11660a12e97a3c7a57c95a2c98f858e699a003e0881304f",
+  "numpy": "2.3.5"
+}

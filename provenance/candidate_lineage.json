@@ -1,0 +1,27 @@
+{
+  "status": "local unpublished MDPI review candidate",
+  "date": "2026-10-15",
+  "source_repository": "https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media",
+  "source_revision": "0faec98ec1a8cde37b2e40e918248bbfa18700d6",
+  "copied_tracked_files": 306,
+  "excluded_file_names": [
+    "paper/evidence/artfid5000_finite_20260908/run.log",
+    "paper/evidence/artfid5000_finite_20260908/source_snapshot/upstream/art_fid/__init__.py",
+    "paper/evidence/artfid5000_finite_20260908/source_snapshot/upstream/art_fid/__main__.py",
+    "paper/evidence/artfid5000_finite_20260908/source_snapshot/upstream/art_fid/art_fid.py",
+    "paper/evidence/artfid5000_finite_20260908/source_snapshot/upstream/art_fid/image_metrics.py",
+    "paper/evidence/artfid5000_finite_20260908/source_snapshot/upstream/art_fid/inception.py",
+    "paper/evidence/artfid5000_finite_20260908/source_snapshot/upstream/art_fid/utils.py",
+    "paper/evidence/artfid5000_finite_20260908/source_snapshot/upstream/setup.py"
+  ],
+  "added_revision_evidence": [
+    "general_benchmark_25_tests.csv",
+    "general_benchmark_six_method_means.csv",
+    "general_25_tests_independent_verification.json",
+    "general_benchmark_six_method_verification.json",
+    "poster_aesfa_20261014/"
+  ],
+  "note": "Historical provenance remains historical. This is not a replacement for the published v0.1.0 manifest.",
+  "original_measurements_modified": false,
+  "third_party_source_trees_included": false
+}

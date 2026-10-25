@@ -1,26 +1,26 @@
-# Models and experimental materials
+# Current manuscript evidence map
 
-| Configuration identifier | Manuscript display name |
-|---|---|
-| residual_gating_spatial_alpha | Residual saliency gating + spatial α (proposed model) / CC-StyTr (Main) |
-| saliency_routed_spatial_alpha | Saliency-routed attention + spatial α |
-| no_structure_guidance | No structure guidance |
-| saliency_routed_scalar_alpha | Saliency-routed attention + scalar α |
-| residual_gating_scalar_alpha | Residual saliency gating + scalar α |
+| Analysis | Current evidence | Scope |
+|---|---|---|
+| General means | `paper/evidence/general_benchmark_six_method_means.csv` | Six methods, 800 matched pairs each |
+| General tests | `paper/evidence/general_benchmark_25_tests.csv` | One primary Bonferroni family of 25 tests |
+| General source rows | `metrics_per_pair_full.csv` and `aesfa_extension_metrics_per_pair_full.csv` in `paper/evidence/` | Deduplicate the identical CC-StyTr reference rows; 4,800 method-pair records |
+| Poster means/OCR | `paper/evidence/poster_aesfa_20261014/` | Six methods; 3,600 image pairs and 3,570 OCR pairs each |
+| Ablation | `results/ablation/` | Five functional configurations; same archived measurements |
+| ArtFID/CSD | `results/artfid5000/summary.csv` | Six methods × 5,000; ordinary finite-sample ArtFID |
+| Spatial control | `results/spatial_control/` | 60 contents × 10 styles × 7 conditions |
+| Historical sensitivity | `mixed_effects.csv`, `crossed_bootstrap.csv` in `paper/evidence/` | Four original baselines, 20 models; not refitted for AesFA |
 
-Configurations: `configs/ablation/<configuration_id>.yaml`. Runtime checkpoints: `checkpoints/ablation/<configuration_id>/ccstytr_step_080000.pth`. All five configurations use 80,000 optimizer steps. Binary checkpoint hashes are recorded in `provenance/checkpoints.json`.
+Older `wilcoxon_pairwise.csv`, `evaluation_means_full.csv`,
+`aesfa_extension_pairwise.csv`, and any old rendered five-method tables are
+historical source evidence, not the current primary test family. The two
+renderers under `scripts/historical/` are retained only as historical source;
+use the top-level `scripts/render_tables.py` and `render_featured_tables.py`.
+Historical infinity-labeled ArtFID files are not the reported finite estimates.
+Do not rerun old collection/migration scripts without adapting their documented
+filesystem and resource prerequisites.
 
-| Experiment | Data location and scope |
-|---|---|
-| General benchmark, 40×20 | `paper/evidence/metrics_per_pair_full.csv`: 4,000 rows across five methods. The same directory provides the 20 primary paired comparisons and dependence-aware analyses. |
-| Featured comparison, 120×30 | Four baselines are in `results/featured/`. Proposed-model records are identified by residual_gating_spatial_alpha in `results/ablation/`. The reader, `scripts/featured_data.py`, verifies matching pair identifiers. |
-| Five-configuration ablation | `results/ablation/metrics_per_pair.csv`, `ocr.csv`, and `summary.csv`: 18,000 image-metric rows; OCR denominators depend on eligible text-bearing samples. |
-| AesFA extension | `results/aesfa_extension/` and `paper/evidence/aesfa_extension_*`: a separate five-test family. |
-| 5,000 pairs, six methods | `data/eval/artfid5000/manifest.csv` and `results/artfid5000/`: an independent ArtFID/CSD protocol. |
-| Spatial control, 60×10×7 | `data/eval/spatial_control/` and `results/spatial_control/`: global, local, monotonicity, and OCR records. |
-| Repeated stylization | `paper/evidence/repeated_stylization_proposed_*`: the proposed model's 20-round trajectory only; these records do not support cross-method comparisons. |
-| Qualitative comparison | `paper/figures/` and the qualitative sample and text/logo crop manifests in the evidence directory. |
-
-The general benchmark uses `ccstytr` as the proposed model's method key. Ablations use functional configuration identifiers. Data sources, comparison conditions, metric directions, and sample counts must not be conflated.
-
-Current 5,000-pair table: `results/artfid5000/summary.csv` (mirrored at `paper/evidence/artfid5000_summary.csv`). Finite-run evidence: `paper/evidence/artfid5000_finite_20260908/`. Combined-table lineage: `results/artfid5000/current_provenance.json`. Superseded infinity-labeled results: `results/artfid5000/historical_infinity/`. The current provenance files link to the immutable finite-run evidence and the historical CSD source.
+Display names: general benchmark `CC-StyTr (Main)`; ablation
+`Residual saliency gating + spatial α (proposed model)`; prose `the proposed model`.
+Checkpoint directories use functional configuration identifiers, not internal
+experiment versions. Checkpoint hashes are in `provenance/checkpoints.json`.

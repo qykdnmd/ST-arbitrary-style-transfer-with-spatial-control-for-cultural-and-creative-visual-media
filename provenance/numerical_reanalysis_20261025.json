@@ -1,0 +1,352 @@
+{
+  "pass": true,
+  "checks": {
+    "general_six_matched_800_pair_grids": true,
+    "general_means_reproduced": true,
+    "primary_family_is_25": true,
+    "bonferroni_adjustments_reproduced": true,
+    "all_25_adjusted_p_below_005": true,
+    "all_25_wilcoxon_tests_reproduced": true,
+    "poster_six_complete_grids": true,
+    "ocr_six_matched_3570_pair_grids": true,
+    "poster_means_reproduced": true,
+    "six_10000_replicate_poster_intervals_reproduced": true,
+    "six_finite_artfid_scores_reconstructed": true,
+    "six_5000_pair_csd_grids": true,
+    "csd_means_reproduced": true,
+    "spatial_result_hashes_match_archived_protocol": true,
+    "python_syntax": true
+  },
+  "general_means": {
+    "ccstytr": {
+      "ssim": 0.5703948210179806,
+      "lpips": 0.4816685140691698,
+      "e_ssim": 0.5640439795365448,
+      "l_c": 1.5507887176796793,
+      "l_s": 0.9799967698380351
+    },
+    "stytr2": {
+      "ssim": 0.48783184971660376,
+      "lpips": 0.5858902098983526,
+      "e_ssim": 0.4289250903313435,
+      "l_c": 2.242372432798147,
+      "l_s": 1.4303431057184934
+    },
+    "adain": {
+      "ssim": 0.2965385893266648,
+      "lpips": 0.6552733482792974,
+      "e_ssim": 0.2707486584188097,
+      "l_c": 2.659471207559109,
+      "l_s": 1.2773619677126407
+    },
+    "sanet": {
+      "ssim": 0.32565907216630874,
+      "lpips": 0.6482683476060629,
+      "e_ssim": 0.2974888497759729,
+      "l_c": 2.519479913711548,
+      "l_s": 1.2951317938789726
+    },
+    "cast": {
+      "ssim": 0.4412893434241414,
+      "lpips": 0.6294787167385221,
+      "e_ssim": 0.3896849395519816,
+      "l_c": 2.4559786702692508,
+      "l_s": 2.4069292440265415
+    },
+    "aesfa": {
+      "ssim": 0.40404010395519435,
+      "lpips": 0.6636930327862501,
+      "e_ssim": 0.38845509579365733,
+      "l_c": 2.6205160872638227,
+      "l_s": 1.3644510469585658
+    }
+  },
+  "poster_means": {
+    "ccstytr": {
+      "ssim": 0.5394184722222223,
+      "lpips": 0.5218141111111111,
+      "e_ssim": 0.4795471111111111,
+      "l_c": 1.6570243333333332,
+      "l_s": 1.7904298333333335,
+      "ocr_sim": 0.5906333053221289
+    },
+    "stytr2": {
+      "ssim": 0.5133244444444445,
+      "lpips": 0.5648752777777778,
+      "e_ssim": 0.44957622222222227,
+      "l_c": 2.0839636666666665,
+      "l_s": 2.179283444444444,
+      "ocr_sim": 0.3411716526610644
+    },
+    "adain": {
+      "ssim": 0.32335494444444446,
+      "lpips": 0.655483138888889,
+      "e_ssim": 0.25167369444444443,
+      "l_c": 2.659964472222222,
+      "l_s": 1.7431283888888889,
+      "ocr_sim": 0.0478821568627451
+    },
+    "sanet": {
+      "ssim": 0.33792361111111113,
+      "lpips": 0.6460316111111111,
+      "e_ssim": 0.26570702777777777,
+      "l_c": 2.4681398333333333,
+      "l_s": 1.5064588055555554,
+      "ocr_sim": 0.17607666666666666
+    },
+    "cast": {
+      "ssim": 0.4595606666666667,
+      "lpips": 0.6199243055555556,
+      "e_ssim": 0.36852947222222227,
+      "l_c": 2.3616175555555556,
+      "l_s": 3.4043925833333333,
+      "ocr_sim": 0.355536106442577
+    },
+    "aesfa": {
+      "ssim": 0.23436430555555557,
+      "lpips": 0.7748130555555555,
+      "e_ssim": 0.19172486111111112,
+      "l_c": 3.6648780833333334,
+      "l_s": 1.8661297777777779,
+      "ocr_sim": 0.30843761904761907
+    }
+  },
+  "poster_intervals": [
+    {
+      "metric": "ssim",
+      "low": 0.28826985208333333,
+      "high": 0.3220731041666667,
+      "mean": 0.30505416666666674,
+      "matches_archive": true
+    },
+    {
+      "metric": "lpips",
+      "low": 0.2390074930555556,
+      "high": 0.2665901680555555,
+      "mean": 0.25299894444444443,
+      "matches_archive": true
+    },
+    {
+      "metric": "e_ssim",
+      "low": 0.2691863048611111,
+      "high": 0.3061975006944444,
+      "mean": 0.28782225,
+      "matches_archive": true
+    },
+    {
+      "metric": "l_c",
+      "low": 1.908876422222222,
+      "high": 2.1031532097222225,
+      "mean": 2.0078537499999998,
+      "matches_archive": true
+    },
+    {
+      "metric": "l_s",
+      "low": -0.03313600000000002,
+      "high": 0.19224264097222216,
+      "mean": 0.07569994444444446,
+      "matches_archive": true
+    },
+    {
+      "metric": "ocr_sim",
+      "low": 0.2468911792717087,
+      "high": 0.3184909404761904,
+      "mean": 0.2821956862745098,
+      "matches_archive": true
+    }
+  ],
+  "wilcoxon": {
+    "executed": true,
+    "tests": [
+      {
+        "baseline": "stytr2",
+        "metric": "ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 5.800680708935232e-131
+      },
+      {
+        "baseline": "stytr2",
+        "metric": "lpips",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.534889681901907e-131
+      },
+      {
+        "baseline": "stytr2",
+        "metric": "e_ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 5.145216176775516e-130
+      },
+      {
+        "baseline": "stytr2",
+        "metric": "l_c",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.469161725044407e-131
+      },
+      {
+        "baseline": "stytr2",
+        "metric": "l_s",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 2.864635496495342e-117
+      },
+      {
+        "baseline": "adain",
+        "metric": "ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.469161725044407e-131
+      },
+      {
+        "baseline": "adain",
+        "metric": "lpips",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.469161725044407e-131
+      },
+      {
+        "baseline": "adain",
+        "metric": "e_ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.469161725044407e-131
+      },
+      {
+        "baseline": "adain",
+        "metric": "l_c",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.469161725044407e-131
+      },
+      {
+        "baseline": "adain",
+        "metric": "l_s",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 8.364021583050905e-60
+      },
+      {
+        "baseline": "sanet",
+        "metric": "ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 6.182566358097402e-131
+      },
+      {
+        "baseline": "sanet",
+        "metric": "lpips",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.534889681901907e-131
+      },
+      {
+        "baseline": "sanet",
+        "metric": "e_ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 5.91048788579804e-131
+      },
+      {
+        "baseline": "sanet",
+        "metric": "l_c",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.469161725044407e-131
+      },
+      {
+        "baseline": "sanet",
+        "metric": "l_s",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 4.5665573563723826e-89
+      },
+      {
+        "baseline": "cast",
+        "metric": "ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.1551056793676385e-126
+      },
+      {
+        "baseline": "cast",
+        "metric": "lpips",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 6.205796188899405e-131
+      },
+      {
+        "baseline": "cast",
+        "metric": "e_ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 2.7846788715647954e-120
+      },
+      {
+        "baseline": "cast",
+        "metric": "l_c",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.521645377863672e-131
+      },
+      {
+        "baseline": "cast",
+        "metric": "l_s",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.948905360429096e-123
+      },
+      {
+        "baseline": "aesfa",
+        "metric": "ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.469161725044407e-131
+      },
+      {
+        "baseline": "aesfa",
+        "metric": "lpips",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.469161725044407e-131
+      },
+      {
+        "baseline": "aesfa",
+        "metric": "e_ssim",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 4.4110529728325796e-131
+      },
+      {
+        "baseline": "aesfa",
+        "metric": "l_c",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.469161725044407e-131
+      },
+      {
+        "baseline": "aesfa",
+        "metric": "l_s",
+        "statistic_matches": true,
+        "raw_p_matches": true,
+        "adjusted_p": 3.095405247992302e-113
+      }
+    ]
+  },
+  "python_syntax_files": 85,
+  "syntax_errors": [],
+  "versions": {
+    "numpy": "2.4.0",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1"
+  },
+  "not_executed": [
+    "GPU inference",
+    "model training",
+    "PyTorch/pytest model unit tests",
+    "statsmodels mixed-effects refits",
+    "FID features recomputation from absent images"
+  ]
+}

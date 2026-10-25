@@ -1,0 +1,180 @@
+{
+  "checked_utc": "2026-10-25T09:46:38.181919+00:00",
+  "reference": {
+    "publisher": "cs-chan/ArtGAN",
+    "style_split_counts": {
+      "artgan_style_train.csv": 57025,
+      "artgan_style_val.csv": 24421
+    },
+    "total_unique_paths": 81446,
+    "style_groups": [
+      "Abstract_Expressionism",
+      "Action_painting",
+      "Analytical_Cubism",
+      "Art_Nouveau_Modern",
+      "Baroque",
+      "Color_Field_Painting",
+      "Contemporary_Realism",
+      "Cubism",
+      "Early_Renaissance",
+      "Expressionism",
+      "Fauvism",
+      "High_Renaissance",
+      "Impressionism",
+      "Mannerism_Late_Renaissance",
+      "Minimalism",
+      "Naive_Art_Primitivism",
+      "New_Realism",
+      "Northern_Renaissance",
+      "Pointillism",
+      "Pop_Art",
+      "Post_Impressionism",
+      "Realism",
+      "Rococo",
+      "Romanticism",
+      "Symbolism",
+      "Synthetic_Cubism",
+      "Ukiyo_e"
+    ],
+    "style_group_count": 27,
+    "duplicate_reference_paths": [],
+    "commit_sha": "27876da69ef538fd2bc90eb044e3231d4006f8e5"
+  },
+  "project_comparison": {
+    "artfid5000_styles": {
+      "manifest": "data/eval/artfid5000/manifest.csv",
+      "manifest_sha256": "f7ef2229b18c2bbfed67dd58f10b01f92af5ba0f74395ce91cac4ebde9790f1d",
+      "unique_style_sources": 5000,
+      "exact_movement_and_filename_matches": 4959,
+      "unmatched": [
+        "Cubism/andr鈹溞斥敩泄-lhote_le-port-de-bordeaux-1915.jpg",
+        "Expressionism/eug鈹溞斥敩懈ne-grasset_la-morphiniste-1897.jpg",
+        "Expressionism/f鈹溞斥敩泄lix-del-marle_etude-pour-l-homme-qui-boit-1931.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_a-portrait-of-basil-mundy-1908.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_another-margarita-1892.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_bacchante-1886.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_bathing-at-la-granja-1907.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_farmhouse-in-valencia.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_guitplayers-valencia-1889.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_lunch-on-the-boat-1898.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_monte-ullia-san-sebastian-1909.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_navarre-the-town-council-of-roncal-1914.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_on-the-sand-valencia-beach-1908.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_painters-on-the-beach.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_peppers-1903.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_portrait-of-antonio-elegido-1893.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_portrait-of-clothilde-1891.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_sierra-nevada-granada-1917.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_square-of-valencia.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_the-relic-1893.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_under-the-sawning-at-zarauz-beach-1910.jpg",
+        "Impressionism/joaqu鈹溞斥敩薪n-sorolla_white-roses-from-the-house-garden-1919.jpg",
+        "Naive_Art_Primitivism/gr鈹溞斥敩泄goire-michonze_country-landscape-1966.jpg",
+        "Naive_Art_Primitivism/gr鈹溞斥敩泄goire-michonze_family-1960(1).jpg",
+        "Naive_Art_Primitivism/gr鈹溞斥敩泄goire-michonze_le-charpentier-sur-la-place-1971.jpg",
+        "Naive_Art_Primitivism/gr鈹溞斥敩泄goire-michonze_village-street.jpg",
+        "Post_Impressionism/gr鈹溞斥敩泄goire-michonze_animals.jpg",
+        "Realism/ant鈹溞斥敩鈹俷io-de-carvalho-da-silva-porto_auto-retrato-1873.jpg",
+        "Realism/ant鈹溞斥敩鈹俷io-de-carvalho-da-silva-porto_guardando-o-rebanho.jpg",
+        "Romanticism/arnold-b鈹溞斥敩鈺klin_soldiers-amount-towards-a-mountain-fortress.jpg",
+        "Romanticism/arnold-b鈹溞斥敩鈺klin_villa-by-the-sea-1878.jpg",
+        "Romanticism/ferdinand-georg-waldm鈹溞斥敩鈺漧ler_view-to-m-dling(1).jpg",
+        "Romanticism/ferdinand-georg-waldm鈹溞斥敩鈺漧ler_yard-of-the-old-heum-ller-in-vienna-1859.jpg",
+        "Romanticism/pierre-paul-prudhon_andromache-and-astyanax.jpg",
+        "Romanticism/pierre-paul-prudhon_madame-simon.jpg",
+        "Symbolism/arnold-b鈹溞斥敩鈺klin_astolf-rides-away-with-his-head-lost-1873.jpg",
+        "Symbolism/arnold-b鈹溞斥敩鈺klin_fighting-on-a-bridge-1.jpg",
+        "Symbolism/arnold-b鈹溞斥敩鈺klin_pan-frightening-a-shepherd-1.jpg",
+        "Symbolism/arnold-b鈹溞斥敩鈺klin_portrait-of-clara-bruckmann-b-cklin.jpg",
+        "Symbolism/arnold-b鈹溞斥敩鈺klin_the-liberty-1891.jpg",
+        "Symbolism/arnold-b鈹溞斥敩鈺klin_the-surf-1883.jpg"
+      ],
+      "example_matches": [
+        "Abstract_Expressionism/aaron-siskind_kentucky-4-1951.jpg",
+        "Abstract_Expressionism/abidin-dino_unknown-title-2.jpg",
+        "Abstract_Expressionism/ad-reinhardt_number-43-abstract-painting-yellow-1947.jpg",
+        "Abstract_Expressionism/aki-kuroda_conti-nuit-1979.jpg",
+        "Abstract_Expressionism/aki-kuroda_first-night-i-1979.jpg"
+      ],
+      "unique_same_movement_and_title_candidates_for_unmatched": 41,
+      "non_ascii_artist_name_encoding_variant_candidates": 39,
+      "apostrophe_only_variants": 2,
+      "variant_correspondences_file": "filename_variant_candidates.json",
+      "image_bytes_compared": false
+    },
+    "general_styles": {
+      "manifest": "data/eval/general/manifest.csv",
+      "manifest_sha256": "8b40ba254fd30154b1686db88cd79e2ec89bdbe49a33d592a33aea79ffc37506",
+      "unique_style_sources": 20,
+      "exact_movement_and_filename_matches": 20,
+      "unmatched": [],
+      "example_matches": [
+        "Abstract_Expressionism/paul-jenkins_not_detected_235703.jpg",
+        "Art_Nouveau_Modern/nicholas-roerich_oze-1914.jpg",
+        "Baroque/rembrandt_portrait-of-nicolas-van-bambeeck-1641.jpg",
+        "Color_Field_Painting/leon-berkowitz_dark-light-rose-gold-1978.jpg",
+        "Cubism/salvador-dali_cubist-composition-portrait-of-a-seated-person-holding-a-letter.jpg"
+      ]
+    },
+    "spatial_control_styles": {
+      "manifest": "data/eval/spatial_control/styles.csv",
+      "manifest_sha256": "c2167d1f432ab6cf5fe3bc98d4e6600e70b7c8b3bd42a3c867679e2e09043087",
+      "unique_style_sources": 10,
+      "exact_movement_and_filename_matches": 10,
+      "unmatched": [],
+      "example_matches": [
+        "Baroque/william-hogarth_the-pit.jpg",
+        "Cubism/joan-miro_the-carbide-lamp-1923.jpg",
+        "Early_Renaissance/masaccio_the-tribute-money-1425.jpg",
+        "High_Renaissance/pietro-perugino_christ-on-the-sarcophagus.jpg",
+        "Minimalism/dan-flavin_greens-crossing-greens-to-piet-mondrian-who-lacked-green-1966.jpg"
+      ]
+    }
+  },
+  "provider_release_page": "https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset",
+  "provider_download_links": [
+    {
+      "url": "https://drive.google.com/file/d/1vTChp3nU5GQeLkPwotrybpUGUXj12BTK/view",
+      "evidence": "Linked by the dataset maintainers in their README; web preview resolves to wikiart.zip.",
+      "full_archive_download_tested": false
+    },
+    {
+      "url": "http://web.fsktm.um.edu.my/~cschan/source/ICIP2017/wikiart.zip",
+      "evidence": "Linked by the dataset maintainers in their README.",
+      "access_check": "This turn the web fetch timed out.",
+      "full_archive_download_tested": false
+    }
+  ],
+  "historical_download_channel_verified": false,
+  "conclusion": "A published ArtGAN refined-WikiArt source and provider-listed mirrors have been found. Public metadata correspond closely to the project evaluation manifests. The historical download service and original training-image byte identity remain unverified.",
+  "verification": [
+    {
+      "filename": "artgan_style_train.csv",
+      "url": "https://api.github.com/repos/cs-chan/ArtGAN/git/blobs/51153061db4d48b333f703a262c2de1d7587879f",
+      "success": true,
+      "bytes": 3658221,
+      "git_blob_verified": true,
+      "expected_git_blob": "51153061db4d48b333f703a262c2de1d7587879f",
+      "sha256": "5a70342fe9f72a90e68af6c6aae1eb6b7852d7ddd360eb9d6a5558f4d78b4123"
+    },
+    {
+      "filename": "artgan_style_val.csv",
+      "url": "https://api.github.com/repos/cs-chan/ArtGAN/git/blobs/85bdce4b8942f2386f36d6b5cdc359d653e2177e",
+      "success": true,
+      "bytes": 1575672,
+      "git_blob_verified": true,
+      "expected_git_blob": "85bdce4b8942f2386f36d6b5cdc359d653e2177e",
+      "sha256": "9a28b6416fec793c9baf21fb1999fd3a28704d5a7b51ef78158b8fba6c1a1984"
+    },
+    {
+      "filename": "artgan_style_class.txt",
+      "url": "https://api.github.com/repos/cs-chan/ArtGAN/git/blobs/b3ecdbcd82ff9d748a3410415322786452dfdde8",
+      "success": true,
+      "bytes": 462,
+      "git_blob_verified": true,
+      "expected_git_blob": "b3ecdbcd82ff9d748a3410415322786452dfdde8",
+      "sha256": "344b1d3afb09990fa55b5342d6bd181d272efa517db604f44163f28272f739c6"
+    }
+  ],
+  "scope": "Public metadata correspondence only; source-image byte identity and historical download service not established."
+}

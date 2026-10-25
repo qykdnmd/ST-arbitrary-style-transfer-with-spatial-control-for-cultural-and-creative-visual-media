@@ -1,23 +1,16 @@
-# Model checkpoints
+# Author-trained checkpoints
 
-Proposed model: **CC-StyTr (Main)**, configuration identifier `residual_gating_spatial_alpha`.
+The proposed model is `residual_gating_spatial_alpha`. Five final checkpoint
+identities and expected sizes/SHA256 values are documented in
+`provenance/checkpoints.json`; see `WEIGHTS.md` for installation and verification.
 
-The five checkpoints use the following runtime directories. Each file is named `ccstytr_step_080000.pth`:
+Current compact-package recovery status is in
+`provenance/checkpoint_recovery_status.json`. The author-trained binaries are
+separate from the code/measurement snapshot and are not supplied by this update.
+All five complete remote-file identities were verified; complete local recovery
+and a public download archive remain pending in the packaged record. File hashes
+identify the intended binaries; they are not access links.
 
-```text
-checkpoints/ablation/
-├── residual_gating_spatial_alpha/
-├── saliency_routed_spatial_alpha/
-├── no_structure_guidance/
-├── saliency_routed_scalar_alpha/
-└── residual_gating_scalar_alpha/
-```
-
-On this machine, the weights are stored separately in `../CC-StyTr_model_weights/ablation/`, using the same directory names. Public checkpoint download links have not yet been provided. A local path is not a public access address.
-
-```sh
-python scripts/restore_checkpoints.py --source ../CC-StyTr_model_weights --verify-only
-python scripts/restore_checkpoints.py --source ../CC-StyTr_model_weights
-```
-
-The first command only verifies the files. The second verifies and copies them into the runtime directories. Their total size is approximately 2.06 GB. Model metadata and SHA256 hashes are recorded in `provenance/checkpoints.json`. Load only trusted checkpoints whose hashes match the recorded values.
+The historical September note is retained in
+`provenance/archive/checkpoint_readme_20260908.md`. Refer to the current resource
+record rather than treating its author-workspace path as a public download URL.

@@ -1,0 +1,6 @@
+method,metric,n,mean,precision
+aesfa,ssim,3600,0.23436479727323684,full
+aesfa,lpips,3600,0.7748130563398202,full
+aesfa,e_ssim,3600,0.19172510592840342,full
+aesfa,l_c,3600,3.664878244135115,full
+aesfa,l_s,3600,1.8661300532850955,full

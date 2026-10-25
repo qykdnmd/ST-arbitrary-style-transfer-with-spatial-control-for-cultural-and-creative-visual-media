@@ -1,0 +1,14 @@
+{
+  "source_manifest_sha256": "f882b03fd7aab1f0e647f648d9b16c7d29772588fd37f8c9f7f914418c697464",
+  "checkpoint_sha256": "8e1dbd2daf53be483897e789f1c57eb92d43b53cd9c87fcb5d6d8d65c14f164c",
+  "runner_sha256": "b41f6f8db47f01c7ca183f98ecc60810c069f208d4e47eb73bb3c751cc5e5355",
+  "evaluator_sha256": "dd9c007b2067080cd20f9b85c64e1f2b5a0acfd624368f747952936247e160b7",
+  "inference_sha256": "5aef5aa01d1b5ab3e4538ffee2585f85b87a9dc3d4d8931fb551439863547c5f",
+  "ocr_script_sha256": "2d0d574b6aee6bce56770901fe084da1d348be1fe82c3ea22ca28009e90c194a",
+  "seed": 20261014,
+  "size": 512,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "cudnn_benchmark": false
+}

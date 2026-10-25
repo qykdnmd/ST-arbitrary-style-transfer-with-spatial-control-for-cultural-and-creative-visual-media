@@ -1,0 +1,77 @@
+{
+  "pass": true,
+  "private_path_scan": "passed",
+  "raw_sources_preserved": true,
+  "files": [
+    {
+      "path": "aesfa_full_precision_means.csv",
+      "sha256": "b8f9c3e0450bfe76a8863e880de8a7c25ebf95739956cf476f3fd1ec01f3934e",
+      "bytes": 239
+    },
+    {
+      "path": "aesfa_paired_crossed_bootstrap.csv",
+      "sha256": "98ce4e263ed24448c4882da23740c9eba47141b0a7e23fa348c7132a74309997",
+      "bytes": 1075
+    },
+    {
+      "path": "analysis_verification.json",
+      "sha256": "9c421a93e7320bac5d6f1d3bd3471d8c9c423d0e69e3f66ef04dbdc7c55f8cb6",
+      "bytes": 6995
+    },
+    {
+      "path": "independent_verification.json",
+      "sha256": "fb96d441769cac29509813d574a7624f607d1c20b4cd1029293a52917206cd32",
+      "bytes": 1886
+    },
+    {
+      "path": "metrics_per_pair_full.csv",
+      "sha256": "249f811d5c18d458c8ea2643c75508948e566190b8c814a4cf6f0aace3457cf1",
+      "bytes": 594918
+    },
+    {
+      "path": "ocr.csv",
+      "sha256": "5d20b476b9b866e04c7ef02e0a869eb7c88562214783e59286f6d19af74ec055",
+      "bytes": 223456
+    },
+    {
+      "path": "outputs_manifest.json",
+      "sha256": "400af2f31654db870a33aa21ead2984b0325338c31d267d770799a3bff8a87eb",
+      "bytes": 586593
+    },
+    {
+      "path": "reference_metrics_per_pair.csv",
+      "sha256": "9f964bbed328b78589b3eec223f3e564d4a9566d9eed18dc2038b8cb8ce741fc",
+      "bytes": 1885475
+    },
+    {
+      "path": "reference_ocr.csv",
+      "sha256": "084b514d3bbc62209aad8d1f5c233a2ccf406a9df5820bf6d27b71ca80ac9336",
+      "bytes": 836155
+    },
+    {
+      "path": "reference_provenance.json",
+      "sha256": "0e3c142f402476d3b5794ab1e61cff6d355637aff5aaac210fc84c3935a14312",
+      "bytes": 1146
+    },
+    {
+      "path": "regression_measurements.csv",
+      "sha256": "d8dfcd96bff5cc8ef7b398d4105a58fc7267a9acff9b9c5e60d8f11a9f27f5e6",
+      "bytes": 22252
+    },
+    {
+      "path": "regression_verification.json",
+      "sha256": "2a6b88d10e05bc0a5876e0e604bd0c95d19e9aa2f1e8222aab1ad29a393a2b7d",
+      "bytes": 2241
+    },
+    {
+      "path": "run_manifest.json",
+      "sha256": "f433caaf0a47f055f4bb35c95db8b8de27c5ca0df0c3f2d95bfc62818527a61c",
+      "bytes": 704
+    },
+    {
+      "path": "six_method_summary.csv",
+      "sha256": "6ec451f06d8850e14a19b1502809866fe76ac3c1851bb52dbf8371785e187593",
+      "bytes": 919
+    }
+  ]
+}

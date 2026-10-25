@@ -1,17 +1,38 @@
-# Data Availability
+# Data and code availability — current repository snapshot
 
-This collection provides the CC-StyTr implementation, five model configurations, training/inference and evaluation scripts, per-pair experimental results, statistical evidence, evaluation sample manifests, and spatial α masks. Experiment-to-file mappings are described in RESULTS_MAP, fields and precision in DATA_DICTIONARY, and file checksums in `provenance/artifact_manifest.json`.
+The current repository snapshot and prepared `supplementary_code_and_data.zip` contain the author model
+implementation, training/inference entry points, functional configurations,
+selection/pairing manifests, masks, pairwise measurements, statistical evidence,
+checkpoint identities and reanalysis scripts. It includes the current AesFA
+poster/OCR evidence and unified 25-comparison general analysis. It is prepared
+for attachment to PeerJ Computer Science manuscript 148632; preparation is not
+a journal upload or a new versioned DOI publication. `SUBMISSION_METADATA.md` supplies a descriptive legend
+including the term “code”, as requested by the technical editor.
 
-Full-precision per-pair metrics are provided for the general benchmark and the AesFA extension. Featured-set and ablation per-pair measurements are stored to four decimal places. The entire collection should therefore not be described as uniformly full precision.
+Author-trained binaries are handled in a separate `author_model_weights.zip`
+companion, only when full local size/SHA256 verification has succeeded.
+`provenance/checkpoint_recovery_status.json` states the actual recovery status.
+See `WEIGHTS.md` and `RESOURCE_ACCESS.md`. Hash records or partial downloads do
+not establish usable reviewer access.
 
-Author-trained checkpoints are stored separately; access and restoration instructions are provided in `checkpoints/README.md`. COCO, WikiArt, PKU PosterLayout, MuralDH, and museum collection images must be obtained under the respective providers' access and licensing terms. THIRD_PARTY identifies the source and manifest entry points. Large source-image collections, complete generated outputs, and third-party weights are not bundled with the code.
+Earlier public repository:
+https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media
 
-Code and the bundled evidence are distributed through https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media. GitHub release [`v0.1.0`](https://github.com/qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media/releases/tag/v0.1.0) was published on 2026-09-08. A permanent archive identifier / DOI has not yet been confirmed in this repository. Before manuscript submission, provide the verified archive/DOI citation, accessible checkpoint links, and specific access or peer-review arrangements for restricted materials. Local filesystem paths must not be presented as public download addresses.
+Earlier snapshot DOI: https://doi.org/10.5281/zenodo.22653939
 
-The current release also includes the verified finite-sample ArtFID evidence, the 40,000-record image hash inventory, and evaluation source snapshots. Seven feature arrays and the actual evaluation images remain external; their recorded hashes are identifiers, not download links. Historical infinity-labeled results are retained separately and are superseded by the finite table.
+That DOI is not a DOI for this revision or the new evidence. No new public
+release, DOI or on-request access promise is created by this package.
 
-Public logs and machine metadata are privacy-redacted derivatives. Numerical results and exact evaluation source snapshots are unchanged. See [PUBLIC_REDACTION.md](PUBLIC_REDACTION.md) for original/public hash lineage.
+Full third-party source image collections, original generated-output grids,
+feature caches, third-party source trees and baseline/metric weight binaries
+are not redistributed. Obtain them from the providers in `DATA_SOURCES.md`
+and `THIRD_PARTY.md` under applicable terms. The corresponding ArtGAN refined-WikiArt release and provider-listed download
+links are identified in `WIKIART_PROVENANCE.md`; the historical download service
+remains unverified.
 
-## Research use and permissions
-
-This repository is provided solely for academic research, evaluation, and reproduction of the study. No project-wide open-source license is granted. See [RESEARCH_USE.md](RESEARCH_USE.md). Third-party materials retain their own terms; a research purpose does not resolve missing or conflicting permissions.
+The supplied archive supports numerical reanalysis; an image-level rerun also
+needs the checkpoint companion, original permitted inputs and protocol-specific
+upstream resources. No complete retraining or fresh feature extraction is claimed.
+Existing use conditions and unresolved permissions remain documented in
+`RESEARCH_USE.md`, `PERMISSION_STATUS.md` and `RIGHTS_AND_PERMISSIONS.md`; no new
+project-wide or weight license is granted.

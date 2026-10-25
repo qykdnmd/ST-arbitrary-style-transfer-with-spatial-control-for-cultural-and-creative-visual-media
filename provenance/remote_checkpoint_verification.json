@@ -1,0 +1,62 @@
+{
+  "remote_checked_utc": "2026-10-15T13:49:54.442696+00:00",
+  "status_updated_utc": "2026-10-15T15:00:19.303020+00:00",
+  "scope": "Previously completed full-file size and SHA256 checks on the original training host; private connection details omitted.",
+  "checkpoints": [
+    {
+      "model_id": "residual_gating_spatial_alpha",
+      "role": "proposed model",
+      "bytes": 412165681,
+      "sha256": "2601b1074dfbec80df7042a00720b67ffe2926de67bbe424949ea906c32efc97",
+      "remote_size_matches_archive": true,
+      "remote_sha256_matches_archive": true,
+      "verified_on_original_host": true,
+      "complete_local_backup_verified": false
+    },
+    {
+      "model_id": "saliency_routed_spatial_alpha",
+      "role": "ablation configuration",
+      "bytes": 412165617,
+      "sha256": "58d2cbcbb88b5b28fe8128a03cc00a4e01255dc6f9f66dd4b5aa25b8ef8303e2",
+      "remote_size_matches_archive": true,
+      "remote_sha256_matches_archive": true,
+      "verified_on_original_host": true,
+      "complete_local_backup_verified": false
+    },
+    {
+      "model_id": "no_structure_guidance",
+      "role": "ablation configuration",
+      "bytes": 412163123,
+      "sha256": "5b0a9494e5557489825424024fd1661116a9da400d489995b66c42945469fa9c",
+      "remote_size_matches_archive": true,
+      "remote_sha256_matches_archive": true,
+      "verified_on_original_host": true,
+      "complete_local_backup_verified": false
+    },
+    {
+      "model_id": "saliency_routed_scalar_alpha",
+      "role": "ablation configuration",
+      "bytes": 412165617,
+      "sha256": "6630ce06142761219b1d7d7bd5bb48a5376ef9f2883880451b57c96abba965ba",
+      "remote_size_matches_archive": true,
+      "remote_sha256_matches_archive": true,
+      "verified_on_original_host": true,
+      "complete_local_backup_verified": false
+    },
+    {
+      "model_id": "residual_gating_scalar_alpha",
+      "role": "ablation configuration",
+      "bytes": 412165681,
+      "sha256": "165dd4c938ad238f6a431e0a69ced11dd650bf257d894ff607c4c526ac6e93c1",
+      "remote_size_matches_archive": true,
+      "remote_sha256_matches_archive": true,
+      "verified_on_original_host": true,
+      "complete_local_backup_verified": false
+    }
+  ],
+  "all_five_remote_files_match_archive": true,
+  "local_backup_status": "paused_incomplete_at_author_request",
+  "partial_downloads_included_in_archive": false,
+  "public_or_reviewer_access_arranged": false,
+  "this_update_actions": "Local documentation and public license metadata checks only; no training-host access, model transfer, inference or publication."
+}

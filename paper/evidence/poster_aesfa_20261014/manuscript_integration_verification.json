@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "all_six_poster_table_rows_match_verified_data": true,
+  "ocr_table_rows_match_verified_data": true,
+  "supplementary_s2_values_match_verified_data": true,
+  "tex_environment_braces_and_references": "passed (not a compilation test)",
+  "unrelated_substantive_user_english_paragraphs_preserved": 51,
+  "changed_existing_substantive_english_paragraphs": 2,
+  "old_chinese_draft_and_pdf_unchanged": true,
+  "tex_sha256": "8b821c5aea7f09bc50df0eb6addb9081e46dc7841be94b0543eb30f57d1f2808",
+  "review_sha256": "3aaeba9036f8680d606358f63de1b8969f4632c11e512b456adc54894a9d6968",
+  "compiled": false
+}

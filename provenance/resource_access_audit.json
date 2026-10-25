@@ -1,0 +1,1105 @@
+{
+  "checked_utc": "2026-10-15T12:58:28.950868+00:00",
+  "scope": "Local resource and public metadata checks, supplemented by prior original-host full-file checkpoint verification; local transfer paused and incomplete.",
+  "author_checkpoints": [
+    {
+      "path": "checkpoints/ablation/residual_gating_spatial_alpha/ccstytr_step_080000.pth",
+      "bytes": 412165681,
+      "sha256": "2601b1074dfbec80df7042a00720b67ffe2926de67bbe424949ea906c32efc97",
+      "model_id": "residual_gating_spatial_alpha",
+      "role": "proposed model",
+      "binary_found_in_checked_local_locations": false,
+      "binary_hash_verified_this_audit": false,
+      "public_download_url": null,
+      "status": "verified_on_original_host_local_transfer_paused_access_not_arranged",
+      "original_host_binary_verified": true,
+      "remote_sha256_matches_archive": true,
+      "local_backup_status": "paused_incomplete"
+    },
+    {
+      "path": "checkpoints/ablation/saliency_routed_spatial_alpha/ccstytr_step_080000.pth",
+      "bytes": 412165617,
+      "sha256": "58d2cbcbb88b5b28fe8128a03cc00a4e01255dc6f9f66dd4b5aa25b8ef8303e2",
+      "model_id": "saliency_routed_spatial_alpha",
+      "role": "ablation configuration",
+      "binary_found_in_checked_local_locations": false,
+      "binary_hash_verified_this_audit": false,
+      "public_download_url": null,
+      "status": "verified_on_original_host_local_transfer_paused_access_not_arranged",
+      "original_host_binary_verified": true,
+      "remote_sha256_matches_archive": true,
+      "local_backup_status": "paused_incomplete"
+    },
+    {
+      "path": "checkpoints/ablation/no_structure_guidance/ccstytr_step_080000.pth",
+      "bytes": 412163123,
+      "sha256": "5b0a9494e5557489825424024fd1661116a9da400d489995b66c42945469fa9c",
+      "model_id": "no_structure_guidance",
+      "role": "ablation configuration",
+      "binary_found_in_checked_local_locations": false,
+      "binary_hash_verified_this_audit": false,
+      "public_download_url": null,
+      "status": "verified_on_original_host_local_transfer_paused_access_not_arranged",
+      "original_host_binary_verified": true,
+      "remote_sha256_matches_archive": true,
+      "local_backup_status": "paused_incomplete"
+    },
+    {
+      "path": "checkpoints/ablation/saliency_routed_scalar_alpha/ccstytr_step_080000.pth",
+      "bytes": 412165617,
+      "sha256": "6630ce06142761219b1d7d7bd5bb48a5376ef9f2883880451b57c96abba965ba",
+      "model_id": "saliency_routed_scalar_alpha",
+      "role": "ablation configuration",
+      "binary_found_in_checked_local_locations": false,
+      "binary_hash_verified_this_audit": false,
+      "public_download_url": null,
+      "status": "verified_on_original_host_local_transfer_paused_access_not_arranged",
+      "original_host_binary_verified": true,
+      "remote_sha256_matches_archive": true,
+      "local_backup_status": "paused_incomplete"
+    },
+    {
+      "path": "checkpoints/ablation/residual_gating_scalar_alpha/ccstytr_step_080000.pth",
+      "bytes": 412165681,
+      "sha256": "165dd4c938ad238f6a431e0a69ced11dd650bf257d894ff607c4c526ac6e93c1",
+      "model_id": "residual_gating_scalar_alpha",
+      "role": "ablation configuration",
+      "binary_found_in_checked_local_locations": false,
+      "binary_hash_verified_this_audit": false,
+      "public_download_url": null,
+      "status": "verified_on_original_host_local_transfer_paused_access_not_arranged",
+      "original_host_binary_verified": true,
+      "remote_sha256_matches_archive": true,
+      "local_backup_status": "paused_incomplete"
+    }
+  ],
+  "third_party_weights_locally_checked": [
+    {
+      "method": "aesfa",
+      "present_in_author_workspace": true,
+      "bytes": 38807295,
+      "expected_sha256": "8e1dbd2daf53be483897e789f1c57eb92d43b53cd9c87fcb5d6d8d65c14f164c",
+      "actual_sha256": "8e1dbd2daf53be483897e789f1c57eb92d43b53cd9c87fcb5d6d8d65c14f164c",
+      "hash_matches": true,
+      "binary_in_review_archive": false
+    },
+    {
+      "method": "csd",
+      "present_in_author_workspace": true,
+      "bytes": 2438228893,
+      "expected_sha256": "40e92fad63a361b8136100cd234c42d401ef9b34ff1748234318929ebcc7e7a1",
+      "actual_sha256": "40e92fad63a361b8136100cd234c42d401ef9b34ff1748234318929ebcc7e7a1",
+      "hash_matches": true,
+      "binary_in_review_archive": false
+    }
+  ],
+  "selected_poster_styles": [
+    {
+      "style_id": "western_painting__met_437769",
+      "provider": "The Met",
+      "object_id": 437769,
+      "title": "Clothing the Naked",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15762-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437769",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437769",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437769",
+        "response_sha256": "65c7d9f4b366aad1bf728c483ecbdc584fa22cac22bab0adc62e19049b42e44a",
+        "object": {
+          "objectID": 437769,
+          "title": "Clothing the Naked",
+          "artistDisplayName": "Michiel Sweerts",
+          "objectDate": "ca. 1661",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/437769",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-15762-001.jpg",
+          "creditLine": "Gift of Mr. and Mrs. Charles Wrightsman, 1984"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "western_painting__met_437967",
+      "provider": "The Met",
+      "object_id": 437967,
+      "title": "Mrs. John Crosby Brown (Mary Elizabeth Adams, 1842–1918)",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14178-001.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437967",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437967",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437967",
+        "response_sha256": "5439af673c981ee9f5296708b08a8ecaef3edceb1255afcc9dd629eb0366bf76",
+        "object": {
+          "objectID": 437967,
+          "title": "Mrs. John Crosby Brown (Mary Elizabeth Adams, 1842–1918)",
+          "artistDisplayName": "Anders Zorn",
+          "objectDate": "ca. 1900",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/437967",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14178-001.jpg",
+          "creditLine": "Bequest of Eliza Coe Moore, 1959"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "western_painting__met_439405",
+      "provider": "The Met",
+      "object_id": 439405,
+      "title": "Madame Élisabeth de France (1764–1794)",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/439405",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/439405",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/439405",
+        "response_sha256": "add4ea9bcf1a473b334c57bec18f93af3db234612eeaee5e026926d0df82497f",
+        "object": {
+          "objectID": 439405,
+          "title": "Madame Elisabeth de France (1764–1794)",
+          "artistDisplayName": "Adélaïde Labille-Guiard",
+          "objectDate": "ca. 1787",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/439405",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP161657.jpg",
+          "creditLine": "Gift of Mrs. Frederick M. Stafford, 2007"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "western_painting__met_359775",
+      "provider": "The Met",
+      "object_id": 359775,
+      "title": "Rivaux Abbey, Yorkshire (Liber Studiorum, part X, plate 51)",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP821489.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/359775",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/359775",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/359775",
+        "response_sha256": "602b5971792f80d9873960c34135daa2145c1b2ffc18c22a92314f1f9b71727c",
+        "object": {
+          "objectID": 359775,
+          "title": "Rivaux Abbey, Yorkshire, part X, plate 51 from \"Liber Studiorum\"",
+          "artistDisplayName": "Joseph Mallord William Turner",
+          "objectDate": "May 23, 1812",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/359775",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP821489.jpg",
+          "creditLine": "Harris Brisbane Dick Fund, 1928"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "western_painting__met_383787",
+      "provider": "The Met",
+      "object_id": 383787,
+      "title": "Villa for Robert Donaldson, Fishkill Landing, New York (perspective and plans)",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP169712.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/383787",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/383787",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/383787",
+        "response_sha256": "8d5bd9e7d82a11e06c8d0ebe233cd5740456957a1c22b5ddb47b9391c3bf5ecc",
+        "object": {
+          "objectID": 383787,
+          "title": "Villa for Robert Donaldson, Fishkill Landing, New York (perspective and plans)",
+          "artistDisplayName": "Alexander Jackson Davis",
+          "objectDate": "1834",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/383787",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP169712.jpg",
+          "creditLine": "Harris Brisbane Dick Fund, 1924"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "western_painting__met_406721",
+      "provider": "The Met",
+      "object_id": 406721,
+      "title": "Fiery-Tailed Sun Bird, from the Birds of the Tropics series (N5) for Allen & Ginter Cigarettes Brands",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP829131.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/406721",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/406721",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/406721",
+        "response_sha256": "fa9d199327b5db49eddd656b7449aee2370e13a4a080b14647f59ecf333b5fdc",
+        "object": {
+          "objectID": 406721,
+          "title": "Fiery-Tailed Sun Bird, from the Birds of the Tropics series (N5) for Allen & Ginter Cigarettes Brands",
+          "artistDisplayName": "Allen & Ginter",
+          "objectDate": "1889",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/406721",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP829131.jpg",
+          "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "western_painting__met_787672",
+      "provider": "The Met",
+      "object_id": 787672,
+      "title": "Procession of the Cod Company from St. Giles's to Billingsgate",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP883714.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/787672",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/787672",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/787672",
+        "response_sha256": "441dc8809b11d4ee1c038453f5ed247fdf8e2ec11bf12714101bfcbd19f252eb",
+        "object": {
+          "objectID": 787672,
+          "title": "Procession of the Cod Company from St. Giles's to Billingsgate",
+          "artistDisplayName": "Thomas Rowlandson",
+          "objectDate": "September 18, 1810",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/787672",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP883714.jpg",
+          "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1959"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "western_painting__met_788182",
+      "provider": "The Met",
+      "object_id": 788182,
+      "title": "The Comforts of High Living",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP880831.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/788182",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/788182",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/788182",
+        "response_sha256": "45be47f0a8a91f5bfa28f3a872dba8fe37e2dc34987a7da364c33f60e56cc032",
+        "object": {
+          "objectID": 788182,
+          "title": "The Comforts of High Living",
+          "artistDisplayName": "Thomas Rowlandson",
+          "objectDate": "December 16, 1794",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/788182",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP880831.jpg",
+          "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1959"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "western_painting__met_739494",
+      "provider": "The Met",
+      "object_id": 739494,
+      "title": "Cries of London, No. 4: Do You Want Any Brickdust?",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP872199.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/739494",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/739494",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/739494",
+        "response_sha256": "b4845347e69688007b0dc7c5d7959a0157a53310cd73fecba0ebba6b7d419700",
+        "object": {
+          "objectID": 739494,
+          "title": "Cries of London, No. 4: Do You Want Any Brickdust?",
+          "artistDisplayName": "Henri Merke",
+          "objectDate": "February 20, 1799",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/739494",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP872199.jpg",
+          "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1959"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "western_painting__met_649693",
+      "provider": "The Met",
+      "object_id": 649693,
+      "title": "Berlin: Cathedral (Der Dom)",
+      "recorded_image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP845537.jpg",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/649693",
+      "metadata_check": {
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/649693",
+        "http_status": 200,
+        "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/649693",
+        "response_sha256": "2b70abd27732509604c492dfeb386820ac1f063f3d9edabca71ec0a17faeeb3d",
+        "object": {
+          "objectID": 649693,
+          "title": "Berlin: Cathedral (Der Dom)",
+          "artistDisplayName": "Gustav Kalhammer",
+          "objectDate": "1911",
+          "isPublicDomain": true,
+          "objectURL": "https://www.metmuseum.org/art/collection/search/649693",
+          "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP845537.jpg",
+          "creditLine": "Museum Accession, transferred from the Library"
+        },
+        "rights_status": "public_domain_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__130942",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 130942,
+      "title": "Thin Forest and Distant Mountains",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1953.630/1953.630_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/130942",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/130942",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/130942",
+        "response_sha256": "af24939042b3fb8a5cbf655d009b7f686fff4cf06cecd0844297e65073824f2a",
+        "object": {
+          "id": 130942,
+          "title": "Thin Forest and Distant Mountains",
+          "accession_number": "1953.630",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1953.630",
+          "creditline": "John L. Severance Fund"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__132834",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 132834,
+      "title": "Album of Seasonal Landscapes, Leaf B (previous leaf 1)",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1955.302.1/1955.302.1_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/132834",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/132834",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/132834",
+        "response_sha256": "4c19f7eecde003eaca0cb61fca6bea8366e9040e01f5b96fb0a9b2d6deaf6222",
+        "object": {
+          "id": 132834,
+          "title": "Album of Seasonal Landscapes, Leaf B (previous leaf 1)",
+          "accession_number": "1955.302.1",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1955.302.1",
+          "creditline": "John L. Severance Fund"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__132836",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 132836,
+      "title": "Album of Seasonal Landscapes, Leaf E (previous leaf 3)",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1955.302.3/1955.302.3_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/132836",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/132836",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/132836",
+        "response_sha256": "dd341c69d71a026f4a8093748f0cdac789a5b3041a585ffbf8325872baf049e0",
+        "object": {
+          "id": 132836,
+          "title": "Album of Seasonal Landscapes, Leaf E (previous leaf 3)",
+          "accession_number": "1955.302.3",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1955.302.3",
+          "creditline": "John L. Severance Fund"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__132840",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 132840,
+      "title": "Album of Seasonal Landscapes, Leaf G (previous leaf 7)",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1955.302.7/1955.302.7_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/132840",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/132840",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/132840",
+        "response_sha256": "91793952ed4d49c35b22a7caa3f28e08d67b927f3d1e76c3f60d52b98064a453",
+        "object": {
+          "id": 132840,
+          "title": "Album of Seasonal Landscapes, Leaf G (previous leaf 7)",
+          "accession_number": "1955.302.7",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1955.302.7",
+          "creditline": "John L. Severance Fund"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__132930",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 132930,
+      "title": "Landscape Album in Various Styles: Landscape after Mi Fei",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1955.37.8/1955.37.8_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/132930",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/132930",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/132930",
+        "response_sha256": "27c13e4729688c1661a53d0af61d5acb9349dd918b7d9e9baaa8ca965111a0a7",
+        "object": {
+          "id": 132930,
+          "title": "Landscape Album in Various Styles: Landscape after Mi Fei",
+          "accession_number": "1955.37.8",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1955.37.8",
+          "creditline": "Gift of Mr. and Mrs. Severance A. Millikin"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__137205",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 137205,
+      "title": "Landscapes in Various Styles after Old Masters",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1962.157.2/1962.157.2_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/137205",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/137205",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/137205",
+        "response_sha256": "bab08007cae6a013bc5f6cebf7aafdb176ea51f9e40053e6fa70cab99931d002",
+        "object": {
+          "id": 137205,
+          "title": "Landscapes in Various Styles after Old Masters",
+          "accession_number": "1962.157.2",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1962.157.2",
+          "creditline": "John L. Severance Fund"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__142574",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 142574,
+      "title": "Reminiscences of Qinhuai River",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1966.31.3/1966.31.3_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/142574",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/142574",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/142574",
+        "response_sha256": "6a7e0906703a3a7bc508ed1306d9d2c97458041c73d6d72659485cb520ba9061",
+        "object": {
+          "id": 142574,
+          "title": "Reminiscences of Qinhuai River",
+          "accession_number": "1966.31.3",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1966.31.3",
+          "creditline": "John L. Severance Fund"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__142578",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 142578,
+      "title": "Reminiscences of Qinhuai River",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1966.31.7/1966.31.7_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/142578",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/142578",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/142578",
+        "response_sha256": "53041e42904a93c63e4a5ee178bb2678de33100b3786c3fc10bf5b43399efcac",
+        "object": {
+          "id": 142578,
+          "title": "Reminiscences of Qinhuai River",
+          "accession_number": "1966.31.7",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1966.31.7",
+          "creditline": "John L. Severance Fund"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__144829",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 144829,
+      "title": "Playing the Qin in a Secluded Valley",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1969.60/1969.60_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/144829",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/144829",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/144829",
+        "response_sha256": "a3becc454085d925ca7c8a316b766811f6dc645d5e9a0f97fcd4146efb82f9db",
+        "object": {
+          "id": 144829,
+          "title": "Playing the Qin in a Secluded Valley",
+          "accession_number": "1969.60",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1969.60",
+          "creditline": "John L. Severance Fund"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "chinese_landscape__148342",
+      "provider": "Cleveland Museum of Art",
+      "object_id": 148342,
+      "title": "Album of Landscapes: Leaf 1",
+      "recorded_image_url": "https://openaccess-cdn.clevelandart.org/1975.64.1/1975.64.1_web.jpg",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/148342",
+      "metadata_check": {
+        "url": "https://openaccess-api.clevelandart.org/api/artworks/148342",
+        "http_status": 200,
+        "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/148342",
+        "response_sha256": "a82c1206f7a66818d854cde022f383eb2080a3e3298c49a3877fb23f7e44f1f8",
+        "object": {
+          "id": 148342,
+          "title": "Album of Landscapes: Leaf 1",
+          "accession_number": "1975.64.1",
+          "share_license_status": "CC0",
+          "url": "https://clevelandart.org/art/1975.64.1",
+          "creditline": "Purchase from the J. H. Wade Fund"
+        },
+        "rights_status": "cc0_flag_verified"
+      }
+    },
+    {
+      "style_id": "mural__img_536crop_1_0",
+      "provider": "MuralDH",
+      "selection_rank": 10,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    },
+    {
+      "style_id": "mural__img_16crop_0_0",
+      "provider": "MuralDH",
+      "selection_rank": 12,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    },
+    {
+      "style_id": "mural__img_1224crop_0_0",
+      "provider": "MuralDH",
+      "selection_rank": 24,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    },
+    {
+      "style_id": "mural__img_1224crop_1_1",
+      "provider": "MuralDH",
+      "selection_rank": 45,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    },
+    {
+      "style_id": "mural__img_326crop_1_1",
+      "provider": "MuralDH",
+      "selection_rank": 53,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    },
+    {
+      "style_id": "mural__img_593crop_0_0",
+      "provider": "MuralDH",
+      "selection_rank": 74,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    },
+    {
+      "style_id": "mural__img_739crop_1_1",
+      "provider": "MuralDH",
+      "selection_rank": 92,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    },
+    {
+      "style_id": "mural__img_1082crop_1_0",
+      "provider": "MuralDH",
+      "selection_rank": 120,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    },
+    {
+      "style_id": "mural__img_327crop_0_1",
+      "provider": "MuralDH",
+      "selection_rank": 125,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    },
+    {
+      "style_id": "mural__img_276crop_1_0",
+      "provider": "MuralDH",
+      "selection_rank": 159,
+      "dataset_url": "https://doi.org/10.5061/dryad.bnzs7h4jd",
+      "publication_permission": "not_established_by_this_inventory"
+    }
+  ],
+  "selected_30_styles_match_archived_experiment": true,
+  "figure_asset_inventory": [
+    {
+      "figure": "Figure 1",
+      "third_party_assets": [
+        "PosterLayout poster 5890",
+        "The Met object 406721"
+      ],
+      "permission": "Poster agreement / publication clearance still needs author confirmation"
+    },
+    {
+      "figure": "Figure 2",
+      "third_party_assets": [],
+      "permission": "Author-generated corrected vector diagram"
+    },
+    {
+      "figure": "Figure 3",
+      "third_party_assets": [
+        {
+          "row": "1",
+          "content_id": "000000094157",
+          "style_id": "Baroque__rembrandt_portrait-of-nicolas-van-bambeeck-1641",
+          "selection_basis": "fixed source-list index"
+        },
+        {
+          "row": "2",
+          "content_id": "000000226171",
+          "style_id": "Early_Renaissance__pietro-perugino_st-jerome-who-attends-two-unfairly-hanged-1473",
+          "selection_basis": "fixed source-list index"
+        },
+        {
+          "row": "3",
+          "content_id": "000000435003",
+          "style_id": "High_Renaissance__raphael_madonna-and-child-enthroned-with-saints-1505",
+          "selection_basis": "fixed source-list index"
+        }
+      ],
+      "permission": "Per-image COCO attribution and artwork provenance must be checked"
+    },
+    {
+      "figure": "Figure 4",
+      "third_party_assets": [
+        {
+          "case": "1",
+          "content_id": "6372",
+          "style_id": "mural__img_1082crop_1_0",
+          "text_box": "[182, 307, 329, 348]",
+          "logo_box": "[63, 147, 455, 210]",
+          "selection_basis": "fixed from source-only OCR/visual audit: English-dominant source and in-frame official crop boxes"
+        },
+        {
+          "case": "3",
+          "content_id": "8962",
+          "style_id": "western_painting__met_359775",
+          "text_box": "[34, 528, 437, 603]",
+          "logo_box": "[60, 489, 209, 525]",
+          "selection_basis": "fixed from source-only OCR/visual audit: English-dominant source and in-frame official crop boxes"
+        }
+      ],
+      "permission": "PosterLayout agreement and MuralDH derivative/publication permission not certified"
+    },
+    {
+      "figure": "Figure 5",
+      "third_party_assets": [],
+      "permission": "Author-generated quantitative chart"
+    }
+  ],
+  "archived_upstream_notice_checks": [
+    {
+      "implementation": "StyTR-2",
+      "archived_top_level_notice_files": [],
+      "applicable_permission": "not_established",
+      "upstream_source_redistributed_in_candidate": false
+    },
+    {
+      "implementation": "art-fid",
+      "archived_top_level_notice_files": [],
+      "applicable_permission": "not_established",
+      "upstream_source_redistributed_in_candidate": false,
+      "archived_setup_sha256": "624ea95e0d715be960a4f16b772952f57b8e9562537829b0c5030ad836bf6d7e",
+      "setup_matches_evaluated_source_hash": true,
+      "setup_declares_apache_2": true,
+      "readme_links_mit": true
+    }
+  ],
+  "public_metadata_checks": [
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437769",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437769",
+      "response_sha256": "65c7d9f4b366aad1bf728c483ecbdc584fa22cac22bab0adc62e19049b42e44a",
+      "object": {
+        "objectID": 437769,
+        "title": "Clothing the Naked",
+        "artistDisplayName": "Michiel Sweerts",
+        "objectDate": "ca. 1661",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/437769",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-15762-001.jpg",
+        "creditLine": "Gift of Mr. and Mrs. Charles Wrightsman, 1984"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437967",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437967",
+      "response_sha256": "5439af673c981ee9f5296708b08a8ecaef3edceb1255afcc9dd629eb0366bf76",
+      "object": {
+        "objectID": 437967,
+        "title": "Mrs. John Crosby Brown (Mary Elizabeth Adams, 1842–1918)",
+        "artistDisplayName": "Anders Zorn",
+        "objectDate": "ca. 1900",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/437967",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14178-001.jpg",
+        "creditLine": "Bequest of Eliza Coe Moore, 1959"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/439405",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/439405",
+      "response_sha256": "add4ea9bcf1a473b334c57bec18f93af3db234612eeaee5e026926d0df82497f",
+      "object": {
+        "objectID": 439405,
+        "title": "Madame Elisabeth de France (1764–1794)",
+        "artistDisplayName": "Adélaïde Labille-Guiard",
+        "objectDate": "ca. 1787",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/439405",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP161657.jpg",
+        "creditLine": "Gift of Mrs. Frederick M. Stafford, 2007"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/359775",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/359775",
+      "response_sha256": "602b5971792f80d9873960c34135daa2145c1b2ffc18c22a92314f1f9b71727c",
+      "object": {
+        "objectID": 359775,
+        "title": "Rivaux Abbey, Yorkshire, part X, plate 51 from \"Liber Studiorum\"",
+        "artistDisplayName": "Joseph Mallord William Turner",
+        "objectDate": "May 23, 1812",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/359775",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP821489.jpg",
+        "creditLine": "Harris Brisbane Dick Fund, 1928"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/383787",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/383787",
+      "response_sha256": "8d5bd9e7d82a11e06c8d0ebe233cd5740456957a1c22b5ddb47b9391c3bf5ecc",
+      "object": {
+        "objectID": 383787,
+        "title": "Villa for Robert Donaldson, Fishkill Landing, New York (perspective and plans)",
+        "artistDisplayName": "Alexander Jackson Davis",
+        "objectDate": "1834",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/383787",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP169712.jpg",
+        "creditLine": "Harris Brisbane Dick Fund, 1924"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/406721",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/406721",
+      "response_sha256": "fa9d199327b5db49eddd656b7449aee2370e13a4a080b14647f59ecf333b5fdc",
+      "object": {
+        "objectID": 406721,
+        "title": "Fiery-Tailed Sun Bird, from the Birds of the Tropics series (N5) for Allen & Ginter Cigarettes Brands",
+        "artistDisplayName": "Allen & Ginter",
+        "objectDate": "1889",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/406721",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP829131.jpg",
+        "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/787672",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/787672",
+      "response_sha256": "441dc8809b11d4ee1c038453f5ed247fdf8e2ec11bf12714101bfcbd19f252eb",
+      "object": {
+        "objectID": 787672,
+        "title": "Procession of the Cod Company from St. Giles's to Billingsgate",
+        "artistDisplayName": "Thomas Rowlandson",
+        "objectDate": "September 18, 1810",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/787672",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP883714.jpg",
+        "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1959"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/788182",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/788182",
+      "response_sha256": "45be47f0a8a91f5bfa28f3a872dba8fe37e2dc34987a7da364c33f60e56cc032",
+      "object": {
+        "objectID": 788182,
+        "title": "The Comforts of High Living",
+        "artistDisplayName": "Thomas Rowlandson",
+        "objectDate": "December 16, 1794",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/788182",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP880831.jpg",
+        "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1959"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/739494",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/739494",
+      "response_sha256": "b4845347e69688007b0dc7c5d7959a0157a53310cd73fecba0ebba6b7d419700",
+      "object": {
+        "objectID": 739494,
+        "title": "Cries of London, No. 4: Do You Want Any Brickdust?",
+        "artistDisplayName": "Henri Merke",
+        "objectDate": "February 20, 1799",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/739494",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP872199.jpg",
+        "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1959"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/649693",
+      "http_status": 200,
+      "resolved_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/649693",
+      "response_sha256": "2b70abd27732509604c492dfeb386820ac1f063f3d9edabca71ec0a17faeeb3d",
+      "object": {
+        "objectID": 649693,
+        "title": "Berlin: Cathedral (Der Dom)",
+        "artistDisplayName": "Gustav Kalhammer",
+        "objectDate": "1911",
+        "isPublicDomain": true,
+        "objectURL": "https://www.metmuseum.org/art/collection/search/649693",
+        "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP845537.jpg",
+        "creditLine": "Museum Accession, transferred from the Library"
+      },
+      "rights_status": "public_domain_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/130942",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/130942",
+      "response_sha256": "af24939042b3fb8a5cbf655d009b7f686fff4cf06cecd0844297e65073824f2a",
+      "object": {
+        "id": 130942,
+        "title": "Thin Forest and Distant Mountains",
+        "accession_number": "1953.630",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1953.630",
+        "creditline": "John L. Severance Fund"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/132834",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/132834",
+      "response_sha256": "4c19f7eecde003eaca0cb61fca6bea8366e9040e01f5b96fb0a9b2d6deaf6222",
+      "object": {
+        "id": 132834,
+        "title": "Album of Seasonal Landscapes, Leaf B (previous leaf 1)",
+        "accession_number": "1955.302.1",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1955.302.1",
+        "creditline": "John L. Severance Fund"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/132836",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/132836",
+      "response_sha256": "dd341c69d71a026f4a8093748f0cdac789a5b3041a585ffbf8325872baf049e0",
+      "object": {
+        "id": 132836,
+        "title": "Album of Seasonal Landscapes, Leaf E (previous leaf 3)",
+        "accession_number": "1955.302.3",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1955.302.3",
+        "creditline": "John L. Severance Fund"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/132840",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/132840",
+      "response_sha256": "91793952ed4d49c35b22a7caa3f28e08d67b927f3d1e76c3f60d52b98064a453",
+      "object": {
+        "id": 132840,
+        "title": "Album of Seasonal Landscapes, Leaf G (previous leaf 7)",
+        "accession_number": "1955.302.7",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1955.302.7",
+        "creditline": "John L. Severance Fund"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/132930",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/132930",
+      "response_sha256": "27c13e4729688c1661a53d0af61d5acb9349dd918b7d9e9baaa8ca965111a0a7",
+      "object": {
+        "id": 132930,
+        "title": "Landscape Album in Various Styles: Landscape after Mi Fei",
+        "accession_number": "1955.37.8",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1955.37.8",
+        "creditline": "Gift of Mr. and Mrs. Severance A. Millikin"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/137205",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/137205",
+      "response_sha256": "bab08007cae6a013bc5f6cebf7aafdb176ea51f9e40053e6fa70cab99931d002",
+      "object": {
+        "id": 137205,
+        "title": "Landscapes in Various Styles after Old Masters",
+        "accession_number": "1962.157.2",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1962.157.2",
+        "creditline": "John L. Severance Fund"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/142574",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/142574",
+      "response_sha256": "6a7e0906703a3a7bc508ed1306d9d2c97458041c73d6d72659485cb520ba9061",
+      "object": {
+        "id": 142574,
+        "title": "Reminiscences of Qinhuai River",
+        "accession_number": "1966.31.3",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1966.31.3",
+        "creditline": "John L. Severance Fund"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/142578",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/142578",
+      "response_sha256": "53041e42904a93c63e4a5ee178bb2678de33100b3786c3fc10bf5b43399efcac",
+      "object": {
+        "id": 142578,
+        "title": "Reminiscences of Qinhuai River",
+        "accession_number": "1966.31.7",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1966.31.7",
+        "creditline": "John L. Severance Fund"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/144829",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/144829",
+      "response_sha256": "a3becc454085d925ca7c8a316b766811f6dc645d5e9a0f97fcd4146efb82f9db",
+      "object": {
+        "id": 144829,
+        "title": "Playing the Qin in a Secluded Valley",
+        "accession_number": "1969.60",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1969.60",
+        "creditline": "John L. Severance Fund"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/148342",
+      "http_status": 200,
+      "resolved_url": "https://openaccess-api.clevelandart.org/api/artworks/148342",
+      "response_sha256": "a82c1206f7a66818d854cde022f383eb2080a3e3298c49a3877fb23f7e44f1f8",
+      "object": {
+        "id": 148342,
+        "title": "Album of Landscapes: Leaf 1",
+        "accession_number": "1975.64.1",
+        "share_license_status": "CC0",
+        "url": "https://clevelandart.org/art/1975.64.1",
+        "creditline": "Purchase from the J. H. Wade Fund"
+      },
+      "rights_status": "cc0_flag_verified"
+    },
+    {
+      "url": "https://zenodo.org/api/records/22653939",
+      "http_status": 200,
+      "resolved_url": "https://zenodo.org/api/records/22653939",
+      "response_sha256": "462b1735f7dc4e2a7f4bc18766ba22c6dae0874cb93dd7d3d51d44f6c7bc0d57",
+      "metadata": {
+        "doi": "10.5281/zenodo.22653939",
+        "version": "v0.1.0",
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "title": "qykdnmd/ST-arbitrary-style-transfer-with-spatial-control-for-cultural-and-creative-visual-media: v0.1.0 Initial Research Release"
+      }
+    },
+    {
+      "url": "https://api.github.com/repos/diyiiyiii/StyTR-2/git/trees/c11ea32913d16dbf2f9a1f82ac077dbf90f143c6?recursive=1",
+      "http_status": 200,
+      "resolved_url": "https://api.github.com/repos/diyiiyiii/StyTR-2/git/trees/c11ea32913d16dbf2f9a1f82ac077dbf90f143c6?recursive=1",
+      "response_sha256": "155662a688f5e4537d65adeb28f2312b8a1dbeb20af3e847205d442466542e5d",
+      "git_tree_truncated": false,
+      "notice_paths": []
+    },
+    {
+      "url": "https://api.github.com/repos/matthias-wright/art-fid/git/trees/6815130992cf0997e1a4afbc991c113273090f7f?recursive=1",
+      "http_status": 422,
+      "status": "not_retrieved"
+    }
+  ],
+  "unchanged_input_csv_sha256": {
+    "data/eval/artfid5000/manifest.csv": "f7ef2229b18c2bbfed67dd58f10b01f92af5ba0f74395ce91cac4ebde9790f1d",
+    "data/eval/general/manifest.csv": "8b40ba254fd30154b1686db88cd79e2ec89bdbe49a33d592a33aea79ffc37506",
+    "data/eval/poster/manifest.csv": "e3f940a0807be7cfaca92658cef022e065bab903d862709deb4f1dabf8562f7a",
+    "data/eval/poster_curated/manifest.csv": "de96dcf820c8f7c4728970ba94f06bc7045804fd4d84b4749ae3701547784f89",
+    "data/eval/poster_curated/manifest_annotations.csv": "7251c4dcf1b3bfedcb52126831eebf4443db0ae4ebdd4fef7f55587453a0054a",
+    "data/eval/spatial_control/posters.csv": "3016dca9f8d1f917f8529d6cd9fc29c1ac5aaca85a7adfd1a5fbdc5e264e5e2b",
+    "data/eval/spatial_control/styles.csv": "c2167d1f432ab6cf5fe3bc98d4e6600e70b7c8b3bd42a3c867679e2e09043087",
+    "data/eval/styles/chinese_landscape/manifest.csv": "d279d2c3524ac116f032eea714e2544336bcf3ba1774de6fe21a1705d4788af8",
+    "data/eval/styles/chinese_painting/manifest.csv": "86b5a022117a4fe81a6e18cd76fff2955bf686e3ad79a5b0540f2b910cf41b14",
+    "data/eval/styles/mural/manifest_ranked.csv": "dd7aa1cea4dae98b5ed4c89d4671215a6956676fd927d2042c536e0db71fe758",
+    "data/eval/styles/mural/manifest_selected.csv": "794e0ffe0c0f936f0d680c663e2a171341bd3f39dd57739937ad16d4a55929d6",
+    "data/eval/styles/western_painting/manifest.csv": "fa053a5b389c886dc7f80bae262ef7e9afe7a334f6c98288b4a20a130b665109"
+  },
+  "csv_files_unchanged": true,
+  "limitations": [
+    "No model unpickling or inference performed.",
+    "No full image/weight collection downloaded or redistributed.",
+    "HTTP access and public-domain flags do not replace an author-specific release agreement.",
+    "Unretrieved sources remain unverified; no restriction is treated as resolved."
+  ],
+  "initial_scope": "Local compact submission package and identified author-workspace weights; no training-machine access attempted.",
+  "checkpoint_status_refreshed_utc": "2026-10-15T15:00:19.303020+00:00"
+}
